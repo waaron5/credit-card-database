@@ -1,0 +1,94 @@
+{
+    "id": "amex_gold",
+    "name": "American Express® Gold Card",
+    "issuer": "American Express",
+    "network": "American Express",
+    "card_type": "personal",
+    "image": "/images/amex_gold.png",
+    "apply_link": "https://www.americanexpress.com/us/credit-cards/card/gold-card/",
+    "rates_and_fees_link": "https://www.americanexpress.com/us/credit-cards/card/gold-card/terms/",
+    "annual_fee": 325,
+    "foreign_fees": 0,
+    "min_credit_score": 700,
+    "intro_apr": null,
+    "ongoing_apr": "21.24% - 29.24% variable",
+    "reward_program": "Amex Membership Rewards",
+    "rewards_currency": "points",
+    "point_value_baseline": 0.012,
+    "point_value_max": 0.02,
+    "recommended_goals": [
+        "points_miles",
+        "maximize_value",
+        "travel_perks"
+    ],
+    "rewards": [
+        {
+            "category": "Dining",
+            "rate": 4,
+            "details": "Restaurants including takeout and delivery"
+        },
+        {
+            "category": "Groceries",
+            "rate": 4,
+            "details": "U.S. supermarkets, up to $25,000 per year"
+        },
+        {
+            "category": "Travel",
+            "rate": 3,
+            "details": "Flights booked directly with airlines or Amex Travel"
+        },
+        {
+            "category": "Catch_All",
+            "rate": 1,
+            "details": "All other purchases"
+        }
+    ],
+    "sign_up_bonus": {
+        "description": "Earn up to 100,000 Membership Rewards® points after spending $6,000 in the first 6 months.",
+        "value_estimate": 900,
+        "spend_requirement": 6000,
+        "timeframe_months": 6
+    },
+    "credits_and_benefits": [
+        {
+            "type": "Dining Credit",
+            "value": 120,
+            "details": "$10/month at Grubhub, Cheesecake Factory, etc.",
+            "category": "Dining"
+        },
+        {
+            "type": "Uber Cash",
+            "value": 120,
+            "details": "$10/month in Uber Cash for rides or Eats",
+            "category": "Transit"
+        },
+        {
+            "type": "Travel Insurance",
+            "value": null,
+            "details": "Trip delay, baggage, and car rental coverage"
+        },
+        {
+            "type": "Purchase Protection",
+            "value": null,
+            "details": "90-day damage and theft coverage"
+        }
+    ],
+    "transfer_partners": [
+        "Delta SkyMiles",
+        "Hilton Honors",
+        "Marriott Bonvoy",
+        "British Airways Avios",
+        "Air Canada Aeroplan"
+    ],
+    "is_business": false,
+    "available_regions": [
+        "US"
+    ],
+    "pairing_synergy": [
+        "Amex Platinum® for lounge access and travel credits",
+        "Blue Business Plus® for everyday 2x points"
+    ],
+    "card_tier": "mid",
+    "data_source": "NerdWallet, The Points Guy, American Express",
+    "last_updated": "2025-10"
+}

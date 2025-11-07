@@ -1,0 +1,284 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://rewrds.com/schema/card.schema.json",
+    "title": "Credit Card Entry Schema",
+    "description": "Defines the structure and validation rules for a credit card entry in the REWRDS credit card database.",
+    "type": "object",
+    "required": [
+        "id",
+        "name",
+        "issuer",
+        "network",
+        "card_type",
+        "image",
+        "apply_link",
+        "rates_and_fees_link",
+        "annual_fee",
+        "foreign_fees",
+        "min_credit_score",
+        "ongoing_apr",
+        "reward_program",
+        "rewards_currency",
+        "point_value_baseline",
+        "point_value_max",
+        "recommended_goals",
+        "rewards",
+        "sign_up_bonus",
+        "credits_and_benefits",
+        "transfer_partners",
+        "available_regions",
+        "pairing_synergy",
+        "card_tier",
+        "data_source",
+        "last_updated"
+    ],
+    "properties": {
+        "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9_\\-]+$",
+            "description": "A unique identifier for the card, lowercase with underscores."
+        },
+        "name": {
+            "type": "string",
+            "description": "The full marketing name of the credit card."
+        },
+        "issuer": {
+            "type": "string",
+            "description": "The bank or financial institution issuing the card."
+        },
+        "network": {
+            "type": "string",
+            "enum": [
+                "Visa",
+                "Mastercard",
+                "American Express",
+                "Discover",
+                "Other"
+            ],
+            "description": "The card network (e.g., Visa, Mastercard, Amex)."
+        },
+        "card_type": {
+            "type": "string",
+            "enum": [
+                "personal",
+                "business",
+                "student",
+                "secured"
+            ],
+            "description": "Type of card product."
+        },
+        "image": {
+            "type": "string",
+            "pattern": "^\\/images\\/.+\\.(png|jpg|jpeg|webp|svg)$",
+            "description": "Relative path or URL to the card image asset."
+        },
+        "apply_link": {
+            "type": "string",
+            "format": "uri",
+            "description": "Official application link from issuer."
+        },
+        "rates_and_fees_link": {
+            "type": "string",
+            "format": "uri",
+            "description": "Issuer’s rates, fees, and terms page URL."
+        },
+        "annual_fee": {
+            "type": "number",
+            "minimum": 0,
+            "description": "Annual fee in USD."
+        },
+        "foreign_fees": {
+            "type": "number",
+            "minimum": 0,
+            "description": "Foreign transaction fee in USD or percentage (0 if none)."
+        },
+        "min_credit_score": {
+            "type": "integer",
+            "minimum": 300,
+            "maximum": 850,
+            "description": "Recommended minimum FICO score for approval."
+        },
+        "intro_apr": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "description": "Introductory APR offer text, or null if none."
+        },
+        "ongoing_apr": {
+            "type": "string",
+            "description": "Ongoing APR range as displayed by the issuer."
+        },
+        "reward_program": {
+            "type": "string",
+            "description": "The card’s rewards ecosystem or brand (e.g., Chase Ultimate Rewards)."
+        },
+        "rewards_currency": {
+            "type": "string",
+            "enum": [
+                "points",
+                "miles",
+                "cash"
+            ],
+            "description": "The type of rewards currency earned."
+        },
+        "point_value_baseline": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 0.05,
+            "description": "Default valuation per point or mile in USD."
+        },
+        "point_value_max": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 0.1,
+            "description": "Maximum possible point value under optimized use."
+        },
+        "recommended_goals": {
+            "type": "array",
+            "description": "Key user goals or priorities this card serves.",
+            "items": {
+                "type": "string",
+                "enum": [
+                    "points_miles",
+                    "cashback",
+                    "travel_perks",
+                    "maximize_value",
+                    "no_annual_fee",
+                    "simple_rewards",
+                    "balance_transfer"
+                ]
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "rewards": {
+            "type": "array",
+            "description": "The earning structure by category.",
+            "items": {
+                "type": "object",
+                "required": [
+                    "category",
+                    "rate",
+                    "details"
+                ],
+                "properties": {
+                    "category": {
+                        "type": "string"
+                    },
+                    "rate": {
+                        "type": "number",
+                        "minimum": 0
+                    },
+                    "details": {
+                        "type": "string"
+                    }
+                }
+            },
+            "minItems": 1
+        },
+        "sign_up_bonus": {
+            "type": "object",
+            "required": [
+                "description",
+                "value_estimate",
+                "spend_requirement",
+                "timeframe_months"
+            ],
+            "properties": {
+                "description": {
+                    "type": "string"
+                },
+                "value_estimate": {
+                    "type": "number",
+                    "minimum": 0
+                },
+                "spend_requirement": {
+                    "type": "number",
+                    "minimum": 0
+                },
+                "timeframe_months": {
+                    "type": "integer",
+                    "minimum": 0
+                }
+            }
+        },
+        "credits_and_benefits": {
+            "type": "array",
+            "description": "Ongoing statement credits or insurance protections.",
+            "items": {
+                "type": "object",
+                "required": [
+                    "type",
+                    "details"
+                ],
+                "properties": {
+                    "type": {
+                        "type": "string"
+                    },
+                    "value": {
+                        "type": [
+                            "number",
+                            "null"
+                        ],
+                        "minimum": 0
+                    },
+                    "details": {
+                        "type": "string"
+                    },
+                    "category": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    }
+                }
+            }
+        },
+        "transfer_partners": {
+            "type": "array",
+            "description": "Airline or hotel loyalty programs available for point transfer.",
+            "items": {
+                "type": "string"
+            },
+            "uniqueItems": true
+        },
+        "is_business": {
+            "type": "boolean",
+            "description": "True if this is a business card."
+        },
+        "available_regions": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "description": "Regions where the card is available."
+        },
+        "pairing_synergy": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "description": "Recommended other cards for maximizing value."
+        },
+        "card_tier": {
+            "type": "string",
+            "enum": [
+                "entry",
+                "mid",
+                "premium"
+            ],
+            "description": "Market segment or user tier for this card."
+        },
+        "data_source": {
+            "type": "string",
+            "description": "Sources where the data was verified (websites, APIs, etc.)."
+        },
+        "last_updated": {
+            "type": "string",
+            "pattern": "^[0-9]{4}-(0[1-9]|1[0-2])$",
+            "description": "Year and month of the last data verification (YYYY-MM)."
+        }
+    },
+    "additionalProperties": false
+}
