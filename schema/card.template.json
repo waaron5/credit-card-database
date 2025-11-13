@@ -1,0 +1,52 @@
+{
+    "id": "",
+    "name": "",
+    "issuer": "",
+    "network": null,
+    "card_type": null,
+    "image": null,
+    "apply_link": "",
+    "rates_and_fees_link": null,
+    "annual_fee": 0,
+    "foreign_fees": null,
+    "min_credit_score": null,
+    "ongoing_apr": null,
+    "intro_apr": null,
+    "reward_program": null,
+    "rewards_currency": null,
+    "point_value_baseline": null,
+    "point_value_max": null,
+    "recommended_goals": [],
+    "rewards": [],
+    "sign_up_bonus": {
+        "description": "",
+        "value_estimate": null,
+        "spend_requirement": null,
+        "timeframe_months": null
+    },
+    "credits_and_benefits": [],
+    "transfer_partners": [],
+    "eligibility": null,
+    "is_business": false,
+    "available_regions": [],
+    "pairing_synergy": [],
+    "card_tier": null,
+    "availability_status": "active",
+    "visibility": true,
+    "data_source": "manual",
+    "last_updated": "",
+    "affiliate_metadata": {
+        "partner": null,
+        "offer_id": null,
+        "feed_source": null,
+        "last_synced": null,
+        "tracking_link": null,
+        "is_affiliate": false
+    },
+    "quiz_metadata": {
+        "recommended_for": [],
+        "manual_tags": [],
+        "local_only": false,
+        "region_priority": "Utah"
+    }
+}

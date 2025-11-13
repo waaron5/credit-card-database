@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://rewrds.com/schema/card.schema.v2.json",
+    "$id": "https://rewrds.com/schema/card.schema.v3.json",
     "title": "Unified Credit Card Schema (Manual + Affiliate Compatible)",
     "type": "object",
     "required": [
@@ -22,13 +22,22 @@
             "type": "string"
         },
         "network": {
-            "type": "string"
+            "type": [
+                "string",
+                "null"
+            ]
         },
         "card_type": {
-            "type": "string"
+            "type": [
+                "string",
+                "null"
+            ]
         },
         "image": {
-            "type": "string"
+            "type": [
+                "string",
+                "null"
+            ]
         },
         "apply_link": {
             "type": "string",
@@ -96,7 +105,8 @@
             "type": "array",
             "items": {
                 "type": "string"
-            }
+            },
+            "default": []
         },
         "rewards": {
             "type": "array",
@@ -115,8 +125,13 @@
                             "null"
                         ]
                     }
-                }
-            }
+                },
+                "required": [
+                    "category",
+                    "rate"
+                ]
+            },
+            "default": []
         },
         "sign_up_bonus": {
             "type": [
@@ -145,7 +160,8 @@
                         "null"
                     ]
                 }
-            }
+            },
+            "default": null
         },
         "credits_and_benefits": {
             "type": "array",
@@ -170,45 +186,87 @@
                             "null"
                         ]
                     }
-                }
-            }
+                },
+                "required": [
+                    "type",
+                    "details"
+                ]
+            },
+            "default": []
         },
         "transfer_partners": {
             "type": "array",
             "items": {
                 "type": "string"
-            }
+            },
+            "default": []
+        },
+        "eligibility": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "description": "Membership or residency requirements, if any"
         },
         "is_business": {
-            "type": "boolean"
+            "type": "boolean",
+            "default": false
         },
         "available_regions": {
             "type": "array",
             "items": {
                 "type": "string"
-            }
+            },
+            "default": []
         },
         "pairing_synergy": {
             "type": "array",
             "items": {
                 "type": "string"
-            }
+            },
+            "default": []
         },
         "card_tier": {
-            "type": "string"
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "availability_status": {
+            "type": "string",
+            "enum": [
+                "active",
+                "expired",
+                "coming_soon"
+            ],
+            "default": "active"
+        },
+        "visibility": {
+            "type": "boolean",
+            "default": true
         },
         "data_source": {
-            "type": "string"
+            "type": [
+                "string",
+                "null"
+            ],
+            "description": "Manual entry, affiliate feed, or mixed"
         },
         "last_updated": {
-            "type": "string"
+            "type": [
+                "string",
+                "null"
+            ]
         },
         "affiliate_metadata": {
             "type": "object",
             "description": "Holds data pulled from affiliate feeds (optional)",
             "properties": {
                 "partner": {
-                    "type": "string"
+                    "type": [
+                        "string",
+                        "null"
+                    ]
                 },
                 "offer_id": {
                     "type": [
@@ -238,7 +296,8 @@
                     "type": "boolean",
                     "default": false
                 }
-            }
+            },
+            "default": {}
         },
         "quiz_metadata": {
             "type": "object",
@@ -248,13 +307,15 @@
                     "type": "array",
                     "items": {
                         "type": "string"
-                    }
+                    },
+                    "default": []
                 },
                 "manual_tags": {
                     "type": "array",
                     "items": {
                         "type": "string"
-                    }
+                    },
+                    "default": []
                 },
                 "local_only": {
                     "type": "boolean",
@@ -267,7 +328,8 @@
                     ],
                     "description": "e.g., 'Utah'"
                 }
-            }
+            },
+            "default": {}
         }
     },
     "additionalProperties": false

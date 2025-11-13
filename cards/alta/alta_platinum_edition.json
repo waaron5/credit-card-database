@@ -1,0 +1,66 @@
+{
+    "id": "alta_platinum_edition",
+    "name": "Platinum Edition® Visa® Card",
+    "issuer": "Alta Bank (issued by FNBO)",
+    "network": "Visa",
+    "card_type": "personal",
+    "image": null,
+    "apply_link": "https://www.card.fnbo.com/mpp/fi/glacier/consumer/web-visa?agent=H51&sub=000",
+    "rates_and_fees_link": "https://www.card.fnbo.com/mpp/fi/glacier/consumer/web-visa?agent=H51&sub=000",
+    "annual_fee": 0,
+    "foreign_fees": null,
+    "min_credit_score": null,
+    "ongoing_apr": "18.74%–28.74% variable",
+    "intro_apr": "0% for first 6 billing cycles on purchases and balance transfers",
+    "reward_program": null,
+    "rewards_currency": null,
+    "point_value_baseline": null,
+    "point_value_max": null,
+    "recommended_goals": [
+        "low interest",
+        "balance transfer",
+        "no annual fee"
+    ],
+    "rewards": [],
+    "sign_up_bonus": null,
+    "credits_and_benefits": [
+        {
+            "type": "Balance Transfer Fee",
+            "value": 5,
+            "details": "5% (minimum $10) per transfer",
+            "category": "fee"
+        }
+    ],
+    "transfer_partners": [],
+    "eligibility": null,
+    "is_business": false,
+    "available_regions": [
+        "Utah"
+    ],
+    "pairing_synergy": [],
+    "card_tier": "Platinum",
+    "availability_status": "active",
+    "visibility": true,
+    "data_source": "manual",
+    "last_updated": "2025-11-12",
+    "affiliate_metadata": {
+        "partner": "FNBO",
+        "offer_id": null,
+        "feed_source": null,
+        "last_synced": null,
+        "tracking_link": null,
+        "is_affiliate": false
+    },
+    "quiz_metadata": {
+        "recommended_for": [
+            "low interest",
+            "balance transfer"
+        ],
+        "manual_tags": [
+            "FNBO",
+            "Alta Bank"
+        ],
+        "local_only": true,
+        "region_priority": "Utah"
+    }
+}

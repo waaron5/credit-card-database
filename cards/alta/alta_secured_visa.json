@@ -1,0 +1,73 @@
+{
+    "id": "alta_secured_visa",
+    "name": "Secured Visa® Card",
+    "issuer": "Alta Bank (issued by FNBO)",
+    "network": "Visa",
+    "card_type": "personal",
+    "image": null,
+    "apply_link": "https://www.card.fnbo.com/mpp/fi/glacier/consumer/web-visa?agent=H51&sub=000",
+    "rates_and_fees_link": "https://www.card.fnbo.com/mpp/fi/glacier/consumer/web-visa?agent=H51&sub=000",
+    "annual_fee": 0,
+    "foreign_fees": null,
+    "min_credit_score": null,
+    "ongoing_apr": "28.74% variable",
+    "intro_apr": null,
+    "reward_program": null,
+    "rewards_currency": null,
+    "point_value_baseline": null,
+    "point_value_max": null,
+    "recommended_goals": [
+        "build credit",
+        "secured card",
+        "no annual fee"
+    ],
+    "rewards": [],
+    "sign_up_bonus": null,
+    "credits_and_benefits": [
+        {
+            "type": "Security Deposit",
+            "value": null,
+            "details": "Deposit $300–$5,000 (multiples of $50)",
+            "category": "security"
+        },
+        {
+            "type": "Balance Transfer Fee",
+            "value": 5,
+            "details": "5% (minimum $10) per transfer",
+            "category": "fee"
+        }
+    ],
+    "transfer_partners": [],
+    "eligibility": "Subject to credit approval; requires refundable security deposit between $300 and $5,000",
+    "is_business": false,
+    "available_regions": [
+        "Utah"
+    ],
+    "pairing_synergy": [],
+    "card_tier": "Secured",
+    "availability_status": "active",
+    "visibility": true,
+    "data_source": "manual",
+    "last_updated": "2025-11-12",
+    "affiliate_metadata": {
+        "partner": "FNBO",
+        "offer_id": null,
+        "feed_source": null,
+        "last_synced": null,
+        "tracking_link": null,
+        "is_affiliate": false
+    },
+    "quiz_metadata": {
+        "recommended_for": [
+            "credit building",
+            "secured starter card"
+        ],
+        "manual_tags": [
+            "secured",
+            "FNBO",
+            "Alta Bank"
+        ],
+        "local_only": true,
+        "region_priority": "Utah"
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "id": "alta_maximum_rewards",
+    "name": "Maximum Rewards® Visa Signature® Card",
+    "issuer": "Alta Bank (issued by FNBO)",
+    "network": "Visa",
+    "card_type": "personal",
+    "image": null,
+    "apply_link": "https://www.card.fnbo.com/mpp/fi/glacier/consumer/web-visa?agent=H51&sub=000",
+    "rates_and_fees_link": "https://www.card.fnbo.com/mpp/fi/glacier/consumer/web-visa?agent=H51&sub=000",
+    "annual_fee": 0,
+    "foreign_fees": null,
+    "min_credit_score": null,
+    "ongoing_apr": "23.74%–28.74% variable",
+    "intro_apr": "0% for first 6 billing cycles on purchases and balance transfers",
+    "reward_program": "Maximum Rewards",
+    "rewards_currency": "cash back",
+    "point_value_baseline": 1.0,
+    "point_value_max": null,
+    "recommended_goals": [
+        "cash back",
+        "everyday spending",
+        "no annual fee"
+    ],
+    "rewards": [
+        {
+            "category": "all_purchases",
+            "rate": 1.5,
+            "details": "Unlimited 1.5% cash back on every purchase"
+        }
+    ],
+    "sign_up_bonus": null,
+    "credits_and_benefits": [
+        {
+            "type": "Balance Transfer Fee",
+            "value": 5,
+            "details": "5% (minimum $10) per transfer",
+            "category": "fee"
+        }
+    ],
+    "transfer_partners": [],
+    "eligibility": null,
+    "is_business": false,
+    "available_regions": [
+        "Utah"
+    ],
+    "pairing_synergy": [],
+    "card_tier": "Signature",
+    "availability_status": "active",
+    "visibility": true,
+    "data_source": "manual",
+    "last_updated": "2025-11-12",
+    "affiliate_metadata": {
+        "partner": "FNBO",
+        "offer_id": null,
+        "feed_source": null,
+        "last_synced": null,
+        "tracking_link": null,
+        "is_affiliate": false
+    },
+    "quiz_metadata": {
+        "recommended_for": [
+            "cash back",
+            "simplicity",
+            "no annual fee"
+        ],
+        "manual_tags": [
+            "flat rate",
+            "FNBO",
+            "Alta Bank"
+        ],
+        "local_only": true,
+        "region_priority": "Utah"
+    }
+}
