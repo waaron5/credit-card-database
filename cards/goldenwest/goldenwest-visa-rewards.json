@@ -1,0 +1,67 @@
+{
+    "id": "goldenwest_visa_rewards",
+    "name": "Goldenwest Visa Rewards Credit Card",
+    "issuer": "Goldenwest Credit Union",
+    "network": "Visa",
+    "card_type": "Credit",
+    "image": "",
+    "apply_link": "",
+    "rates_and_fees_link": null,
+    "annual_fee": 0,
+    "foreign_fees": "1.00% of each single-currency and multiple-currency transaction in U.S. dollars",
+    "min_credit_score": null,
+    "ongoing_apr": "11.99%-18.00% Variable Rate",
+    "intro_apr": null,
+    "reward_program": "Golden Rewards: Points Plus",
+    "rewards_currency": "Points",
+    "point_value_baseline": null,
+    "point_value_max": null,
+    "rewards": [
+        {
+            "category": "All purchases",
+            "rate": 1,
+            "description": "Earn 1 point for every $1 spent; promotional periods may earn 2-3x points"
+        }
+    ],
+    "recommended_goals": [],
+    "sign_up_bonus": {
+        "description": null,
+        "value_estimate": null,
+        "spend_requirement": null,
+        "timeframe_months": null
+    },
+    "credits_and_benefits": [
+        "No annual fee",
+        "No balance transfer fee",
+        "Travel rebates on airline tickets, hotel stays, and rental cars",
+        "Points redeemable for travel, gift cards, cash back",
+        "Contactless Visa-chip security and worldwide acceptance",
+        "Redemption options via Points Plus platform"
+    ],
+    "transfer_partners": [],
+    "eligibility": null,
+    "is_business": false,
+    "available_regions": [
+        "Utah"
+    ],
+    "pairing_synergy": [],
+    "card_tier": "Rewards",
+    "availability_status": "active",
+    "visibility": true,
+    "data_source": "manual",
+    "last_updated": "",
+    "affiliate_metadata": {
+        "partner": null,
+        "offer_id": null,
+        "feed_source": null,
+        "last_synced": null,
+        "tracking_link": null,
+        "is_affiliate": false
+    },
+    "quiz_metadata": {
+        "recommended_for": [],
+        "manual_tags": [],
+        "local_only": true,
+        "region_priority": "Utah"
+    }
+}

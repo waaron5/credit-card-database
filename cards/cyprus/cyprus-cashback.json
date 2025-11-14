@@ -1,0 +1,73 @@
+{
+    "id": "cyprus_cash_back_visa",
+    "name": "Cyprus Cash Back Visa Credit Card",
+    "issuer": "Cyprus Credit Union",
+    "network": "Visa",
+    "card_type": "Credit",
+    "image": "",
+    "apply_link": "",
+    "rates_and_fees_link": null,
+    "annual_fee": 0,
+    "foreign_fees": null,
+    "min_credit_score": null,
+    "ongoing_apr": "APR as low as 16.24%",
+    "intro_apr": null,
+    "reward_program": "Cyprus Cash Back",
+    "rewards_currency": "Cash Back",
+    "point_value_baseline": null,
+    "point_value_max": null,
+    "rewards": [
+        {
+            "category": "All purchases",
+            "rate": 1.5,
+            "description": "1.5% cash back on all purchases, paid quarterly to your savings account"
+        }
+    ],
+    "recommended_goals": [],
+    "sign_up_bonus": {
+        "description": null,
+        "value_estimate": null,
+        "spend_requirement": null,
+        "timeframe_months": null
+    },
+    "credits_and_benefits": [
+        "No annual fees, no transaction fees, no balance transfer fees, and no minimum finance charges",
+        "Protected by eGuard 3-D Secure technology",
+        "24-hour online account access on Home Banking and the Mobile Banking app",
+        "No penalty APR",
+        "25-day grace period on purchases",
+        "Billing dispute resolution",
+        "Easy-access cash advances",
+        "Auto rental collision coverage",
+        "Roadside Dispatch",
+        "Emergency card/cash disbursement",
+        "Lost or stolen card reporting",
+        "Choice of card designs"
+    ],
+    "transfer_partners": [],
+    "eligibility": null,
+    "is_business": false,
+    "available_regions": [
+        "Utah"
+    ],
+    "pairing_synergy": [],
+    "card_tier": null,
+    "availability_status": "active",
+    "visibility": true,
+    "data_source": "manual",
+    "last_updated": "",
+    "affiliate_metadata": {
+        "partner": null,
+        "offer_id": null,
+        "feed_source": null,
+        "last_synced": null,
+        "tracking_link": null,
+        "is_affiliate": false
+    },
+    "quiz_metadata": {
+        "recommended_for": [],
+        "manual_tags": [],
+        "local_only": true,
+        "region_priority": "Utah"
+    }
+}

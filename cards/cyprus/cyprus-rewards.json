@@ -1,0 +1,77 @@
+{
+    "id": "cyprus_rewards_visa",
+    "name": "Cyprus Rewards Visa Credit Card",
+    "issuer": "Cyprus Credit Union",
+    "network": "Visa",
+    "card_type": "Credit",
+    "image": "",
+    "apply_link": "",
+    "rates_and_fees_link": null,
+    "annual_fee": 0,
+    "foreign_fees": null,
+    "min_credit_score": null,
+    "ongoing_apr": "APR as low as 13.24%",
+    "intro_apr": null,
+    "reward_program": "Cyprus Rewards",
+    "rewards_currency": "Points",
+    "point_value_baseline": null,
+    "point_value_max": null,
+    "rewards": [
+        {
+            "category": "All purchases",
+            "rate": 1,
+            "description": "Earn one point for every dollar spent, plus bonus points at select merchants"
+        }
+    ],
+    "recommended_goals": [],
+    "sign_up_bonus": {
+        "description": "10,000 bonus points after spending $1,000 in the first 90 days",
+        "value_estimate": null,
+        "spend_requirement": 1000,
+        "timeframe_months": 3
+    },
+    "credits_and_benefits": [
+        "No annual fees, no transaction fees, no balance transfer fees, and no minimum finance charges",
+        "Protected by eGuard 3-D Secure technology",
+        "24-hour online account access",
+        "No penalty APR",
+        "25-day grace period on purchases",
+        "Billing dispute resolution",
+        "Easy-access cash advances",
+        "Auto rental collision coverage",
+        "Roadside Dispatch",
+        "Emergency card/cash disbursement",
+        "Lost or stolen card reporting",
+        "Personal ID theft coverage",
+        "Lost luggage reimbursement",
+        "Travel accident insurance",
+        "Extended warranty protection",
+        "Choice of card designs"
+    ],
+    "transfer_partners": [],
+    "eligibility": null,
+    "is_business": false,
+    "available_regions": [
+        "Utah"
+    ],
+    "pairing_synergy": [],
+    "card_tier": null,
+    "availability_status": "active",
+    "visibility": true,
+    "data_source": "manual",
+    "last_updated": "",
+    "affiliate_metadata": {
+        "partner": null,
+        "offer_id": null,
+        "feed_source": null,
+        "last_synced": null,
+        "tracking_link": null,
+        "is_affiliate": false
+    },
+    "quiz_metadata": {
+        "recommended_for": [],
+        "manual_tags": [],
+        "local_only": true,
+        "region_priority": "Utah"
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "id": "first_community_bank_business_visa",
+    "name": "First Community Bank Visa Business Credit Card",
+    "issuer": "First Community Bank",
+    "network": "Visa",
+    "card_type": "Credit",
+    "image": "",
+    "apply_link": "",
+    "rates_and_fees_link": null,
+    "annual_fee": 0,
+    "foreign_fees": "1% of US dollar amount",
+    "min_credit_score": null,
+    "ongoing_apr": "13.49% (purchases/BT), 19.49% (cash advances)",
+    "intro_apr": null,
+    "reward_program": "Business Rewards Points",
+    "rewards_currency": "Points",
+    "point_value_baseline": null,
+    "point_value_max": null,
+    "rewards": [
+        {
+            "category": "All purchases",
+            "rate": 1,
+            "description": "Earn 1 point for every $1 spent; redeem for cash back, gift cards, or travel credit"
+        }
+    ],
+    "recommended_goals": [],
+    "sign_up_bonus": {
+        "description": null,
+        "value_estimate": null,
+        "spend_requirement": null,
+        "timeframe_months": null
+    },
+    "credits_and_benefits": [
+        "No annual fee",
+        "Use credit card float to improve cash flow",
+        "Protect your account from unauthorized transactions via Visa Zero Liability Policy",
+        "24/7/365 online self-service platform",
+        "Dedicated relationship manager for your business",
+        "Local rewards program – rewards belong to your business and are not taxable income*"
+    ],
+    "transfer_partners": [],
+    "eligibility": "On approved credit",
+    "is_business": true,
+    "available_regions": [
+        "Utah"
+    ],
+    "pairing_synergy": [],
+    "card_tier": null,
+    "availability_status": "active",
+    "visibility": true,
+    "data_source": "manual",
+    "last_updated": "",
+    "affiliate_metadata": {
+        "partner": null,
+        "offer_id": null,
+        "feed_source": null,
+        "last_synced": null,
+        "tracking_link": null,
+        "is_affiliate": false
+    },
+    "quiz_metadata": {
+        "recommended_for": [],
+        "manual_tags": [],
+        "local_only": true,
+        "region_priority": "Utah"
+    }
+}

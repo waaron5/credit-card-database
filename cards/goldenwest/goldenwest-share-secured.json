@@ -1,0 +1,77 @@
+{
+    "id": "goldenwest_visa_share_secured",
+    "name": "Goldenwest Visa Share Secured Credit Card",
+    "issuer": "Goldenwest Credit Union",
+    "network": "Visa",
+    "card_type": "Credit",
+    "image": "",
+    "apply_link": "https://www.gwcu.org/borrow/visa-cards/credit-cards/visa-share-secured-credit-card/",
+    "rates_and_fees_link": null,
+    "annual_fee": 0,
+    "foreign_fees": "1.00% of each U.S.-dollar transaction or multiple-currency transaction",
+    "min_credit_score": null,
+    "ongoing_apr": "11.25% Variable",
+    "intro_apr": null,
+    "reward_program": null,
+    "rewards_currency": null,
+    "point_value_baseline": null,
+    "point_value_max": null,
+    "rewards": [
+        {
+            "category": "All purchases",
+            "rate": 0,
+            "description": "No rewards program listed"
+        }
+    ],
+    "recommended_goals": [],
+    "sign_up_bonus": {
+        "description": null,
+        "value_estimate": null,
+        "spend_requirement": null,
+        "timeframe_months": null
+    },
+    "credits_and_benefits": [
+        "Secured by funds in a member’s savings account to help build or rebuild credit",
+        "Low variable rate",
+        "No annual fee",
+        "No balance transfer fee",
+        "25-day grace period on purchases",
+        "Worldwide acceptance at retailers and ATMs",
+        "Instant issue available at all branches",
+        "Contactless payment capability",
+        "Visa-chip security"
+    ],
+    "transfer_partners": [],
+    "eligibility": null,
+    "is_business": false,
+    "available_regions": [
+        "Utah"
+    ],
+    "pairing_synergy": [],
+    "card_tier": "Secured",
+    "availability_status": "active",
+    "visibility": true,
+    "data_source": "manual",
+    "last_updated": "",
+    "affiliate_metadata": {
+        "partner": null,
+        "offer_id": null,
+        "feed_source": null,
+        "last_synced": null,
+        "tracking_link": null,
+        "is_affiliate": false
+    },
+    "quiz_metadata": {
+        "recommended_for": [],
+        "manual_tags": [],
+        "local_only": true,
+        "region_priority": "Utah"
+    },
+    "fees": {
+        "cash_advance_fee": "1.50% of each cash advance",
+        "late_payment_fee": "Up to $22 if 15+ days late",
+        "returned_payment_fee": "$22.00",
+        "card_replacement_fee": "$5.00",
+        "over_credit_limit_fee": "None"
+    }
+}

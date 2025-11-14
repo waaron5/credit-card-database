@@ -1,0 +1,82 @@
+{
+    "id": "goldenwest_the_aggie_card",
+    "name": "Goldenwest Aggie Visa Credit Card",
+    "issuer": "Goldenwest Credit Union",
+    "network": "Visa",
+    "card_type": "Credit",
+    "image": "",
+    "apply_link": "https://www.gwcu.org/borrow/visa-cards/credit-cards/the-aggie-card/",
+    "rates_and_fees_link": null,
+    "annual_fee": 0,
+    "foreign_fees": "1.00% of each transaction in U.S. dollars",
+    "min_credit_score": null,
+    "ongoing_apr": "11.99% - 18.00% Variable Rate",
+    "intro_apr": null,
+    "reward_program": "Points Plus",
+    "rewards_currency": "Points",
+    "point_value_baseline": null,
+    "point_value_max": null,
+    "rewards": [
+        {
+            "category": "All purchases",
+            "rate": 1,
+            "description": "Earn 1 point per $1 spent through the Goldenwest Points Plus rewards program"
+        }
+    ],
+    "recommended_goals": [],
+    "sign_up_bonus": {
+        "description": null,
+        "value_estimate": null,
+        "spend_requirement": null,
+        "timeframe_months": null
+    },
+    "credits_and_benefits": [
+        "Utah State University themed card design",
+        "Portion of proceeds donated to the USU Alumni Association",
+        "No annual fee",
+        "Low variable rate",
+        "No balance transfer fees",
+        "25-day grace period on purchases",
+        "Instant issue available at all branches",
+        "Contactless payment capability",
+        "Card controls and mobile wallet compatibility",
+        "Worldwide acceptance at retailers and ATMs"
+    ],
+    "transfer_partners": [],
+    "eligibility": "Subject to credit approval",
+    "is_business": false,
+    "available_regions": [
+        "Utah"
+    ],
+    "pairing_synergy": [],
+    "card_tier": null,
+    "availability_status": "active",
+    "visibility": true,
+    "data_source": "manual",
+    "last_updated": "",
+    "affiliate_metadata": {
+        "partner": null,
+        "offer_id": null,
+        "feed_source": null,
+        "last_synced": null,
+        "tracking_link": null,
+        "is_affiliate": false
+    },
+    "quiz_metadata": {
+        "recommended_for": [],
+        "manual_tags": [
+            "student",
+            "university",
+            "USU"
+        ],
+        "local_only": true,
+        "region_priority": "Utah"
+    },
+    "fees": {
+        "cash_advance_fee": "1.50% of each cash advance",
+        "late_payment_fee": "Up to $22 if 15+ days late",
+        "returned_payment_fee": "$22",
+        "card_replacement_fee": "$5",
+        "over_credit_limit_fee": "None"
+    }
+}

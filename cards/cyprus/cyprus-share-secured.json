@@ -1,0 +1,74 @@
+{
+    "id": "cyprus_share_secured_visa",
+    "name": "Cyprus Share-Secured Visa Credit Card",
+    "issuer": "Cyprus Credit Union",
+    "network": "Visa",
+    "card_type": "Credit",
+    "image": "",
+    "apply_link": "",
+    "rates_and_fees_link": null,
+    "annual_fee": 0,
+    "foreign_fees": null,
+    "min_credit_score": null,
+    "ongoing_apr": "APR as low as 10.74%",
+    "intro_apr": null,
+    "reward_program": null,
+    "rewards_currency": null,
+    "point_value_baseline": null,
+    "point_value_max": null,
+    "rewards": [
+        {
+            "category": "All purchases",
+            "rate": 0,
+            "description": "No rewards program listed"
+        }
+    ],
+    "recommended_goals": [],
+    "sign_up_bonus": {
+        "description": null,
+        "value_estimate": null,
+        "spend_requirement": null,
+        "timeframe_months": null
+    },
+    "credits_and_benefits": [
+        "Credit limits between $100 and $5,000",
+        "Low rates",
+        "Protected by 3-D Secure technology",
+        "No transaction or balance transfer fees",
+        "No minimum finance charge",
+        "No annual fee",
+        "25-day grace period on purchases",
+        "Billing dispute resolution",
+        "Easy-access cash advances",
+        "Auto rental collision coverage",
+        "Roadside Dispatch",
+        "Emergency card/cash disbursement",
+        "Lost or stolen card reporting"
+    ],
+    "transfer_partners": [],
+    "eligibility": null,
+    "is_business": false,
+    "available_regions": [
+        "Utah"
+    ],
+    "pairing_synergy": [],
+    "card_tier": null,
+    "availability_status": "active",
+    "visibility": true,
+    "data_source": "manual",
+    "last_updated": "",
+    "affiliate_metadata": {
+        "partner": null,
+        "offer_id": null,
+        "feed_source": null,
+        "last_synced": null,
+        "tracking_link": null,
+        "is_affiliate": false
+    },
+    "quiz_metadata": {
+        "recommended_for": [],
+        "manual_tags": [],
+        "local_only": true,
+        "region_priority": "Utah"
+    }
+}

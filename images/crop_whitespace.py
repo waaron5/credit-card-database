@@ -17,7 +17,7 @@ def remove_background(img, tol=TOLERANCE):
     """Make only edge-connected uniform/light background transparent.
     Internal white/off-white areas remain untouched.
     Steps:
-      1. Collect corner colors as background candidates.
+      1. Collect corner colors as background candidates (near-white only).
       2. Flood fill from all edge pixels that match background criteria.
       3. Only pixels reached by flood fill become transparent.
       4. Crop resulting transparent border.
@@ -25,23 +25,32 @@ def remove_background(img, tol=TOLERANCE):
     rgb = img.convert("RGB")
     w, h = rgb.size
 
+    def is_near_white(pixel):
+        return all(channel >= 255 - tol for channel in pixel[:3])
+
     corner_pixels = [
         rgb.getpixel((0, 0)),
         rgb.getpixel((w - 1, 0)),
         rgb.getpixel((0, h - 1)),
         rgb.getpixel((w - 1, h - 1)),
     ]
-    bg_candidates = set(corner_pixels)
+    # Only treat near-white corners as background candidates
+    bg_candidates = {p for p in corner_pixels if is_near_white(p)}
+
+    # If no near-white corners, skip processing (avoid removing colored edges)
+    if not bg_candidates:
+        return None
 
     rgba = rgb.convert("RGBA")
     pixels = rgba.load()
 
     def is_bg(pixel):
+        # Corner-based near-white candidates
         for bg in bg_candidates:
             if all(abs(pixel[i] - bg[i]) <= tol for i in range(3)):
                 return True
-        # Near-white heuristic
-        if all(channel >= 255 - tol for channel in pixel[:3]):
+        # General near-white heuristic as fallback
+        if is_near_white(pixel):
             return True
         return False
 
@@ -93,6 +102,7 @@ if not os.path.isdir(input_folder):
 else:
     files_processed = 0
     files_skipped = 0
+    files_skipped_no_bg = 0
     for filename in os.listdir(input_folder):
         if filename.lower().endswith((".png", ".jpg", ".jpeg")):
             stem = os.path.splitext(filename)[0].lower()
@@ -103,6 +113,9 @@ else:
             try:
                 img = Image.open(path)
                 processed = remove_background(img)
+                if processed is None:
+                    files_skipped_no_bg += 1
+                    continue
                 out_name = stem + ".png"
                 processed.save(os.path.join(output_folder, out_name))
                 files_processed += 1
@@ -111,5 +124,6 @@ else:
     if files_processed:
         print(f"✅ Background removal complete. {files_processed} new file(s) saved to '{output_folder}'.")
     print(f"ℹ️ Skipped {files_skipped} existing file(s). Use CROP_FORCE=1 to reprocess all.")
-    if files_processed == 0 and files_skipped == 0:
+    print(f"ℹ️ Skipped {files_skipped_no_bg} file(s) with no near-white border.")
+    if files_processed == 0 and files_skipped == 0 and files_skipped_no_bg == 0:
         print("ℹ️ No image files processed.")

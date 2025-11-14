@@ -10,17 +10,7 @@
     "annual_fee": 0,
     "foreign_transaction_fee": "Up to 1% of USD amount",
     "min_credit_score": null,
-    "ongoing_apr": {
-        "introductory": {
-            "rate": "0%",
-            "duration_months": 6,
-            "type": "interest-free initial period"
-        },
-        "after_intro": {
-            "lowest_available": "11.49% variable",
-            "highest": "18% variable"
-        }
-    },
+    "ongoing_apr": "11.49%-18% variable",
     "intro_apr": "0% for first 6 months",
     "reward_program": "Choose one perk option (points, low rate, cash back) for the Visa Platinum family",
     "rewards_currency": "varies by perk option",

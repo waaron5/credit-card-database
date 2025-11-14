@@ -1,0 +1,78 @@
+{
+    "id": "goldenwest_simply_platinum",
+    "name": "Goldenwest Simply Platinum Visa Credit Card",
+    "issuer": "Goldenwest Credit Union",
+    "network": "Visa",
+    "card_type": "Credit",
+    "image": "",
+    "apply_link": "",
+    "rates_and_fees_link": null,
+    "annual_fee": 0,
+    "foreign_fees": "1.00% of each transaction in U.S. dollars",
+    "min_credit_score": null,
+    "ongoing_apr": "11.75% Fixed Rate (without rebate) / 14.75% Fixed Rate (with rebate)",
+    "intro_apr": null,
+    "reward_program": "Cash Rebate Program",
+    "rewards_currency": "Cash Back",
+    "point_value_baseline": null,
+    "point_value_max": null,
+    "rewards": [
+        {
+            "category": "All purchases",
+            "rate": 0,
+            "description": "Tiered cash-rebate: 0.25% on first $1,000.99 annually, 0.50% on next $1,001-$2,000.99, 0.75% on next $2,001-$3,000.99, 1.00% on $3,001+ (rebates deposited annually into savings account)"
+        }
+    ],
+    "recommended_goals": [],
+    "sign_up_bonus": {
+        "description": null,
+        "value_estimate": null,
+        "spend_requirement": null,
+        "timeframe_months": null
+    },
+    "credits_and_benefits": [
+        "Low fixed rate",
+        "No annual fee",
+        "No balance transfer fees",
+        "25-day grace period on purchases",
+        "Worldwide acceptance at retailers & ATMs",
+        "Instant issue at all branches",
+        "Contactless payment technology",
+        "Account access 24/7 via online/mobile",
+        "Card controls and mobile wallet compatible",
+        "VISA protection"
+    ],
+    "transfer_partners": [],
+    "eligibility": null,
+    "is_business": false,
+    "available_regions": [
+        "Utah"
+    ],
+    "pairing_synergy": [],
+    "card_tier": "Platinum",
+    "availability_status": "active",
+    "visibility": true,
+    "data_source": "manual",
+    "last_updated": "",
+    "affiliate_metadata": {
+        "partner": null,
+        "offer_id": null,
+        "feed_source": null,
+        "last_synced": null,
+        "tracking_link": null,
+        "is_affiliate": false
+    },
+    "quiz_metadata": {
+        "recommended_for": [],
+        "manual_tags": [],
+        "local_only": true,
+        "region_priority": "Utah"
+    },
+    "fees": {
+        "cash_advance_fee": "1.50% of each cash advance",
+        "late_payment_fee": "Up to $22 if 15+ days late",
+        "returned_payment_fee": "$22",
+        "card_replacement_fee": "$5",
+        "over_credit_limit_fee": null
+    }
+}

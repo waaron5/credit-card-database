@@ -1,0 +1,74 @@
+{
+    "id": "goldenwest_visa_signature",
+    "name": "Goldenwest Visa Signature Credit Card",
+    "issuer": "Goldenwest Credit Union",
+    "network": "Visa",
+    "card_type": "Credit",
+    "image": "",
+    "apply_link": "",
+    "rates_and_fees_link": null,
+    "annual_fee": 0,
+    "foreign_fees": "1.00% of transaction in U.S. dollars",
+    "min_credit_score": null,
+    "ongoing_apr": "15.99% Variable",
+    "intro_apr": null,
+    "reward_program": "Cash Back",
+    "rewards_currency": "Cash Back",
+    "point_value_baseline": null,
+    "point_value_max": null,
+    "rewards": [
+        {
+            "category": "All purchases",
+            "rate": 1.5,
+            "description": "Earn 1.5% cash back on all purchases, deposited quarterly"
+        }
+    ],
+    "recommended_goals": [],
+    "sign_up_bonus": {
+        "description": null,
+        "value_estimate": null,
+        "spend_requirement": null,
+        "timeframe_months": null
+    },
+    "credits_and_benefits": [
+        "No annual fee",
+        "No balance transfer fee",
+        "25-day grace period on purchases",
+        "Worldwide acceptance at retailers and ATMs",
+        "TSA Pre-Check application fee reimbursement",
+        "Concierge services",
+        "Travel accident insurance (accidental death & dismemberment)",
+        "Luggage delay and lost luggage reimbursement",
+        "Cell phone protection",
+        "Emergency evacuation/transportation",
+        "Personal identity theft protection (up to $15,000)",
+        "Contactless payment support",
+        "EMV chip security"
+    ],
+    "transfer_partners": [],
+    "eligibility": null,
+    "is_business": false,
+    "available_regions": [
+        "Utah"
+    ],
+    "pairing_synergy": [],
+    "card_tier": "Signature",
+    "availability_status": "active",
+    "visibility": true,
+    "data_source": "manual",
+    "last_updated": "",
+    "affiliate_metadata": {
+        "partner": null,
+        "offer_id": null,
+        "feed_source": null,
+        "last_synced": null,
+        "tracking_link": null,
+        "is_affiliate": false
+    },
+    "quiz_metadata": {
+        "recommended_for": [],
+        "manual_tags": [],
+        "local_only": true,
+        "region_priority": "Utah"
+    }
+}

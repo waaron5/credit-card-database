@@ -1,0 +1,72 @@
+{
+    "id": "first_utah_business_credit_card",
+    "name": "First Utah Bank Business Credit Card",
+    "issuer": "First Utah Bank",
+    "network": "Visa",
+    "card_type": "Credit",
+    "image": "",
+    "apply_link": "",
+    "rates_and_fees_link": null,
+    "annual_fee": 0,
+    "foreign_fees": "1%",
+    "min_credit_score": null,
+    "ongoing_apr": "13.49% APR for purchases and balance transfers; 19.49% APR for cash advances",
+    "intro_apr": null,
+    "reward_program": "Cash Back",
+    "rewards_currency": "Cash Back",
+    "point_value_baseline": null,
+    "point_value_max": null,
+    "rewards": [
+        {
+            "category": "All purchases",
+            "rate": 1,
+            "description": "1.00% cash back on all purchases, credited quarterly"
+        }
+    ],
+    "recommended_goals": [],
+    "sign_up_bonus": {
+        "description": null,
+        "value_estimate": null,
+        "spend_requirement": null,
+        "timeframe_months": null
+    },
+    "credits_and_benefits": [
+        "Cash back credited quarterly on the 15th day of the month following quarter end",
+        "Card billing cycle date is the 1st of each month",
+        "25-day grace period on purchases",
+        "Cards do not need to be paid to zero monthly",
+        "Baggage Delay Reimbursement up to $100/day for up to 3 days (delay > 4 hours)",
+        "Accident Insurance – $500,000 accidental death and dismemberment",
+        "Roadside Assistance – $69.95 set price per call (towing, tire change, jump start, lockout, fuel delivery, winching)",
+        "Rental Vehicle Damage Waiver – collision or theft",
+        "Cellular Telephone Protection (cell phone bill must be paid with card)",
+        "Damage or theft of eligible cellphone reimbursed",
+        "Purchase Security – protects new retail purchases (Regulation E/VISA dispute)"
+    ],
+    "transfer_partners": [],
+    "eligibility": null,
+    "is_business": true,
+    "available_regions": [
+        "Utah"
+    ],
+    "pairing_synergy": [],
+    "card_tier": null,
+    "availability_status": "active",
+    "visibility": true,
+    "data_source": "manual",
+    "last_updated": "",
+    "affiliate_metadata": {
+        "partner": null,
+        "offer_id": null,
+        "feed_source": null,
+        "last_synced": null,
+        "tracking_link": null,
+        "is_affiliate": false
+    },
+    "quiz_metadata": {
+        "recommended_for": [],
+        "manual_tags": [],
+        "local_only": true,
+        "region_priority": "Utah"
+    }
+}

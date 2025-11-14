@@ -1,0 +1,65 @@
+{
+    "id": "central_bank_visa_personal",
+    "name": "Central Bank Visa Credit Card",
+    "issuer": "Central Bank",
+    "network": "Visa",
+    "card_type": "Credit",
+    "image": "",
+    "apply_link": "",
+    "rates_and_fees_link": null,
+    "annual_fee": 0,
+    "foreign_fees": "1%",
+    "min_credit_score": null,
+    "ongoing_apr": "Fixed rate starting as low as 10.95%",
+    "intro_apr": null,
+    "reward_program": "Central Bank Rewards",
+    "rewards_currency": "Points",
+    "point_value_baseline": null,
+    "point_value_max": null,
+    "rewards": [
+        {
+            "category": "All purchases",
+            "rate": 0,
+            "description": "Earn rewards points for every dollar spent"
+        }
+    ],
+    "recommended_goals": [],
+    "sign_up_bonus": {
+        "description": null,
+        "value_estimate": null,
+        "spend_requirement": null,
+        "timeframe_months": null
+    },
+    "credits_and_benefits": [
+        "$200,000 Travel Accidental Death and Dismemberment Protection",
+        "Travel & Emergency Assistance",
+        "Online account management",
+        "No balance transfer fees"
+    ],
+    "transfer_partners": [],
+    "eligibility": null,
+    "is_business": false,
+    "available_regions": [
+        "Utah"
+    ],
+    "pairing_synergy": [],
+    "card_tier": null,
+    "availability_status": "active",
+    "visibility": true,
+    "data_source": "manual",
+    "last_updated": "",
+    "affiliate_metadata": {
+        "partner": null,
+        "offer_id": null,
+        "feed_source": null,
+        "last_synced": null,
+        "tracking_link": null,
+        "is_affiliate": false
+    },
+    "quiz_metadata": {
+        "recommended_for": [],
+        "manual_tags": [],
+        "local_only": true,
+        "region_priority": "Utah"
+    }
+}

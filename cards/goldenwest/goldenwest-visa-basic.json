@@ -1,0 +1,77 @@
+{
+    "id": "goldenwest_visa_basic",
+    "name": "Goldenwest Visa Basic Credit Card",
+    "issuer": "Goldenwest Credit Union",
+    "network": "Visa",
+    "card_type": "Credit",
+    "image": "",
+    "apply_link": "",
+    "rates_and_fees_link": null,
+    "annual_fee": 0,
+    "foreign_fees": "1.00% of each U.S. dollar transaction",
+    "min_credit_score": null,
+    "ongoing_apr": "10.49% – 18.00% Variable",
+    "intro_apr": null,
+    "reward_program": null,
+    "rewards_currency": null,
+    "point_value_baseline": null,
+    "point_value_max": null,
+    "rewards": [
+        {
+            "category": "All purchases",
+            "rate": 0,
+            "description": "No rewards program listed"
+        }
+    ],
+    "recommended_goals": [],
+    "sign_up_bonus": {
+        "description": null,
+        "value_estimate": null,
+        "spend_requirement": null,
+        "timeframe_months": null
+    },
+    "credits_and_benefits": [
+        "Low variable rate",
+        "No annual fee",
+        "No balance transfer fees",
+        "25-day grace period on purchases",
+        "Worldwide acceptance at retailers & ATMs",
+        "Visa protection",
+        "Instant issue available at all branches",
+        "Contactless payment capability",
+        "Card controls and mobile wallet compatible"
+    ],
+    "transfer_partners": [],
+    "eligibility": null,
+    "is_business": false,
+    "available_regions": [
+        "Utah"
+    ],
+    "pairing_synergy": [],
+    "card_tier": "Basic",
+    "availability_status": "active",
+    "visibility": true,
+    "data_source": "manual",
+    "last_updated": "",
+    "affiliate_metadata": {
+        "partner": null,
+        "offer_id": null,
+        "feed_source": null,
+        "last_synced": null,
+        "tracking_link": null,
+        "is_affiliate": false
+    },
+    "quiz_metadata": {
+        "recommended_for": [],
+        "manual_tags": [],
+        "local_only": true,
+        "region_priority": "Utah"
+    },
+    "fees": {
+        "cash_advance_fee": "1.50% of each cash advance",
+        "late_payment_fee": "Up to $22 if 15+ days late",
+        "returned_payment_fee": "$22",
+        "card_replacement_fee": "$5",
+        "over_credit_limit_fee": null
+    }
+}
