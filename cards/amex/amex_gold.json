@@ -10,38 +10,38 @@
     "annual_fee": 325,
     "foreign_fees": 0,
     "min_credit_score": 700,
+    "ongoing_apr": "21.24%–29.24% variable",
     "intro_apr": null,
-    "ongoing_apr": "21.24% - 29.24% variable",
     "reward_program": "Amex Membership Rewards",
     "rewards_currency": "points",
     "point_value_baseline": 0.012,
     "point_value_max": 0.02,
+    "rewards": [
+        {
+            "category": "dining",
+            "rate": 4,
+            "description": "4X at restaurants worldwide including takeout and delivery"
+        },
+        {
+            "category": "groceries",
+            "rate": 4,
+            "description": "4X at U.S. supermarkets (up to $25,000 per year)"
+        },
+        {
+            "category": "travel",
+            "rate": 3,
+            "description": "3X on flights booked directly with airlines or Amex Travel"
+        },
+        {
+            "category": "other",
+            "rate": 1,
+            "description": "1X on all other purchases"
+        }
+    ],
     "recommended_goals": [
         "points_miles",
         "maximize_value",
         "travel_perks"
-    ],
-    "rewards": [
-        {
-            "category": "Dining",
-            "rate": 4,
-            "details": "Restaurants including takeout and delivery"
-        },
-        {
-            "category": "Groceries",
-            "rate": 4,
-            "details": "U.S. supermarkets, up to $25,000 per year"
-        },
-        {
-            "category": "Travel",
-            "rate": 3,
-            "details": "Flights booked directly with airlines or Amex Travel"
-        },
-        {
-            "category": "Catch_All",
-            "rate": 1,
-            "details": "All other purchases"
-        }
     ],
     "sign_up_bonus": {
         "description": "Earn up to 100,000 Membership Rewards® points after spending $6,000 in the first 6 months.",
@@ -50,28 +50,11 @@
         "timeframe_months": 6
     },
     "credits_and_benefits": [
-        {
-            "type": "Dining Credit",
-            "value": 120,
-            "details": "$10/month at Grubhub, Cheesecake Factory, etc.",
-            "category": "Dining"
-        },
-        {
-            "type": "Uber Cash",
-            "value": 120,
-            "details": "$10/month in Uber Cash for rides or Eats",
-            "category": "Transit"
-        },
-        {
-            "type": "Travel Insurance",
-            "value": null,
-            "details": "Trip delay, baggage, and car rental coverage"
-        },
-        {
-            "type": "Purchase Protection",
-            "value": null,
-            "details": "90-day damage and theft coverage"
-        }
+        "$120 dining credit ($10/month at select partners)",
+        "$120 Uber Cash ($10/month for rides or Eats)",
+        "Travel insurance protections (trip delay, baggage, car rental)",
+        "Purchase protection (90-day damage & theft)",
+        "Extended warranty coverage"
     ],
     "transfer_partners": [
         "Delta SkyMiles",
@@ -80,15 +63,41 @@
         "British Airways Avios",
         "Air Canada Aeroplan"
     ],
+    "eligibility": null,
     "is_business": false,
     "available_regions": [
-        "US"
+        "Utah"
     ],
     "pairing_synergy": [
         "Amex Platinum® for lounge access and travel credits",
-        "Blue Business Plus® for everyday 2x points"
+        "Blue Business Plus® for everyday 2X points"
     ],
     "card_tier": "mid",
+    "availability_status": "active",
+    "visibility": true,
     "data_source": "NerdWallet, The Points Guy, American Express",
-    "last_updated": "2025-10"
+    "last_updated": "2025-11-13",
+    "affiliate_metadata": {
+        "partner": null,
+        "offer_id": null,
+        "feed_source": null,
+        "last_synced": null,
+        "tracking_link": null,
+        "is_affiliate": false
+    },
+    "quiz_metadata": {
+        "recommended_for": [
+            "frequent diners",
+            "grocery spenders",
+            "travel points optimizers"
+        ],
+        "manual_tags": [
+            "points",
+            "dining",
+            "grocery",
+            "travel"
+        ],
+        "local_only": true,
+        "region_priority": "Utah"
+    }
 }

@@ -1,0 +1,95 @@
+{
+    "id": "canyonview_student_rewards",
+    "name": "Student Rewards VISA Credit Card",
+    "issuer": "Canyon View Credit Union",
+    "network": "Visa",
+    "card_type": "personal",
+    "image": "/images/canyonview_student_rewards.png",
+    "apply_link": "https://www.canyonviewcreditunion.com",
+    "rates_and_fees_link": null,
+    "annual_fee": 0,
+    "foreign_fees": null,
+    "min_credit_score": null,
+    "ongoing_apr": "17.99% variable",
+    "intro_apr": null,
+    "reward_program": "Canyon View Rewards Program",
+    "rewards_currency": "points",
+    "point_value_baseline": null,
+    "point_value_max": null,
+    "rewards": [
+        {
+            "category": "restaurants & grocery stores",
+            "rate": 2,
+            "description": "2X rewards at restaurants and grocery stores"
+        },
+        {
+            "category": "warehouse stores",
+            "rate": 3,
+            "description": "3X rewards at warehouse stores like Costco and Sam's Club"
+        },
+        {
+            "category": "travel (airfare & hotels)",
+            "rate": 3,
+            "description": "3X rewards on qualifying travel expenses like airfare and hotels"
+        },
+        {
+            "category": "gas stations",
+            "rate": 4,
+            "description": "4X rewards at gas stations"
+        },
+        {
+            "category": "UofU Campus Store & tuition",
+            "rate": 5,
+            "description": "5X rewards at UofU Campus Store and UofU tuition"
+        }
+    ],
+    "recommended_goals": [
+        "students",
+        "build credit",
+        "everyday spending"
+    ],
+    "sign_up_bonus": {
+        "description": null,
+        "value_estimate": null,
+        "spend_requirement": null,
+        "timeframe_months": null
+    },
+    "credits_and_benefits": [
+        "No annual fee",
+        "Credit limits up to $4,000 for easier credit building"
+    ],
+    "transfer_partners": [],
+    "eligibility": "Canyon View Credit Union membership",
+    "is_business": false,
+    "available_regions": [
+        "Utah"
+    ],
+    "pairing_synergy": [],
+    "card_tier": "Student Rewards",
+    "availability_status": "active",
+    "visibility": true,
+    "data_source": "manual",
+    "last_updated": "2025-11-13",
+    "affiliate_metadata": {
+        "partner": null,
+        "offer_id": null,
+        "feed_source": null,
+        "last_synced": null,
+        "tracking_link": null,
+        "is_affiliate": false
+    },
+    "quiz_metadata": {
+        "recommended_for": [
+            "students",
+            "new credit users"
+        ],
+        "manual_tags": [
+            "student",
+            "no annual fee",
+            "points",
+            "local Utah card"
+        ],
+        "local_only": true,
+        "region_priority": "Utah"
+    }
+}

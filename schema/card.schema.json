@@ -1,19 +1,21 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://rewrds.com/schema/card.schema.v3.json",
-    "title": "Unified Credit Card Schema (Manual + Affiliate Compatible)",
+    "title": "Credit Card",
     "type": "object",
     "required": [
         "id",
         "name",
         "issuer",
         "apply_link",
-        "annual_fee"
+        "annual_fee",
+        "data_source",
+        "visibility",
+        "availability_status",
+        "quiz_metadata"
     ],
     "properties": {
         "id": {
-            "type": "string",
-            "pattern": "^[a-z0-9_\\-]+$"
+            "type": "string"
         },
         "name": {
             "type": "string"
@@ -40,28 +42,26 @@
             ]
         },
         "apply_link": {
-            "type": "string",
-            "format": "uri"
+            "type": "string"
         },
         "rates_and_fees_link": {
             "type": [
                 "string",
                 "null"
-            ],
-            "format": "uri"
+            ]
         },
         "annual_fee": {
             "type": "number"
         },
         "foreign_fees": {
             "type": [
-                "number",
+                "string",
                 "null"
             ]
         },
         "min_credit_score": {
             "type": [
-                "integer",
+                "number",
                 "null"
             ]
         },
@@ -101,17 +101,15 @@
                 "null"
             ]
         },
-        "recommended_goals": {
-            "type": "array",
-            "items": {
-                "type": "string"
-            },
-            "default": []
-        },
         "rewards": {
             "type": "array",
             "items": {
                 "type": "object",
+                "required": [
+                    "category",
+                    "rate",
+                    "description"
+                ],
                 "properties": {
                     "category": {
                         "type": "string"
@@ -119,28 +117,26 @@
                     "rate": {
                         "type": "number"
                     },
-                    "details": {
-                        "type": [
-                            "string",
-                            "null"
-                        ]
+                    "description": {
+                        "type": "string"
                     }
-                },
-                "required": [
-                    "category",
-                    "rate"
-                ]
-            },
-            "default": []
+                }
+            }
+        },
+        "recommended_goals": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
         },
         "sign_up_bonus": {
-            "type": [
-                "object",
-                "null"
-            ],
+            "type": "object",
             "properties": {
                 "description": {
-                    "type": "string"
+                    "type": [
+                        "string",
+                        "null"
+                    ]
                 },
                 "value_estimate": {
                     "type": [
@@ -156,75 +152,44 @@
                 },
                 "timeframe_months": {
                     "type": [
-                        "integer",
+                        "number",
                         "null"
                     ]
                 }
-            },
-            "default": null
+            }
         },
         "credits_and_benefits": {
             "type": "array",
             "items": {
-                "type": "object",
-                "properties": {
-                    "type": {
-                        "type": "string"
-                    },
-                    "value": {
-                        "type": [
-                            "number",
-                            "null"
-                        ]
-                    },
-                    "details": {
-                        "type": "string"
-                    },
-                    "category": {
-                        "type": [
-                            "string",
-                            "null"
-                        ]
-                    }
-                },
-                "required": [
-                    "type",
-                    "details"
-                ]
-            },
-            "default": []
+                "type": "string"
+            }
         },
         "transfer_partners": {
             "type": "array",
             "items": {
                 "type": "string"
-            },
-            "default": []
+            }
         },
         "eligibility": {
             "type": [
                 "string",
                 "null"
-            ],
-            "description": "Membership or residency requirements, if any"
+            ]
         },
         "is_business": {
-            "type": "boolean",
-            "default": false
+            "type": "boolean"
         },
         "available_regions": {
             "type": "array",
             "items": {
                 "type": "string"
-            },
-            "default": []
+            }
         },
         "pairing_synergy": {
             "type": "array",
             "items": {
                 "type": "string"
-            },
-            "default": []
+            }
         },
         "card_tier": {
             "type": [
@@ -233,24 +198,13 @@
             ]
         },
         "availability_status": {
-            "type": "string",
-            "enum": [
-                "active",
-                "expired",
-                "coming_soon"
-            ],
-            "default": "active"
+            "type": "string"
         },
         "visibility": {
-            "type": "boolean",
-            "default": true
+            "type": "boolean"
         },
         "data_source": {
-            "type": [
-                "string",
-                "null"
-            ],
-            "description": "Manual entry, affiliate feed, or mixed"
+            "type": "string"
         },
         "last_updated": {
             "type": [
@@ -260,7 +214,6 @@
         },
         "affiliate_metadata": {
             "type": "object",
-            "description": "Holds data pulled from affiliate feeds (optional)",
             "properties": {
                 "partner": {
                     "type": [
@@ -293,44 +246,38 @@
                     ]
                 },
                 "is_affiliate": {
-                    "type": "boolean",
-                    "default": false
+                    "type": "boolean"
                 }
-            },
-            "default": {}
+            }
         },
         "quiz_metadata": {
             "type": "object",
-            "description": "Stores fields used only by quiz logic",
+            "required": [
+                "recommended_for",
+                "manual_tags",
+                "local_only",
+                "region_priority"
+            ],
             "properties": {
                 "recommended_for": {
                     "type": "array",
                     "items": {
                         "type": "string"
-                    },
-                    "default": []
+                    }
                 },
                 "manual_tags": {
                     "type": "array",
                     "items": {
                         "type": "string"
-                    },
-                    "default": []
+                    }
                 },
                 "local_only": {
-                    "type": "boolean",
-                    "default": false
+                    "type": "boolean"
                 },
                 "region_priority": {
-                    "type": [
-                        "string",
-                        "null"
-                    ],
-                    "description": "e.g., 'Utah'"
+                    "type": "string"
                 }
-            },
-            "default": {}
+            }
         }
-    },
-    "additionalProperties": false
+    }
 }

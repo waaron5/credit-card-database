@@ -1,0 +1,79 @@
+{
+    "id": "amucu_visa_cash_back",
+    "name": "VISA® Cash Back Credit Card",
+    "issuer": "American United Federal Credit Union",
+    "network": "Visa",
+    "card_type": "consumer",
+    "image": "/images/amucu_visa_cash_back.png",
+    "apply_link": "https://www.amucu.org/personal/visa-credit-cards/cash-back-visa/",
+    "rates_and_fees_link": "https://www.amucu.org/rates/",
+    "annual_fee": 0,
+    "foreign_fees": null,
+    "min_credit_score": null,
+    "ongoing_apr": "12.90% fixed APR",
+    "intro_apr": null,
+    "reward_program": "Cash Back",
+    "rewards_currency": "cash back",
+    "point_value_baseline": null,
+    "point_value_max": null,
+    "recommended_goals": [
+        "cash back everyday spending",
+        "simple rewards structure",
+        "no annual fee"
+    ],
+    "rewards": [
+        {
+            "category": "all purchases",
+            "rate": 0.01,
+            "description": "1% cash back on every purchase; cash back automatically paid each month."
+        }
+    ],
+    "sign_up_bonus": {
+        "description": null,
+        "value_estimate": null,
+        "spend_requirement": null,
+        "timeframe_months": null
+    },
+    "credits_and_benefits": [
+        "No annual fee",
+        "Fixed rate as low as 12.90% APR",
+        "1% cash back automatically paid monthly",
+        "Unlimited transactions",
+        "EMV contactless technology",
+        "Zero liability protection"
+    ],
+    "transfer_partners": [],
+    "eligibility": "Membership required, approved credit",
+    "is_business": false,
+    "available_regions": [
+        "Utah"
+    ],
+    "pairing_synergy": [],
+    "card_tier": "Standard-CashBack",
+    "availability_status": "active",
+    "visibility": true,
+    "data_source": "manual",
+    "last_updated": "2025-11-13",
+    "affiliate_metadata": {
+        "partner": null,
+        "offer_id": null,
+        "feed_source": null,
+        "last_synced": null,
+        "tracking_link": null,
+        "is_affiliate": false
+    },
+    "quiz_metadata": {
+        "recommended_for": [
+            "cash back oriented users",
+            "simple rewards",
+            "Utah residents"
+        ],
+        "manual_tags": [
+            "cash back",
+            "no annual fee",
+            "Utah credit union"
+        ],
+        "local_only": true,
+        "region_priority": "Utah"
+    }
+}

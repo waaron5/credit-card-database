@@ -1,25 +1,25 @@
 {
-    "id": "alta_secured_visa",
-    "name": "Secured Visa® Card",
-    "issuer": "Alta Bank (issued by FNBO)",
+    "id": "amucu_visa_secured",
+    "name": "Secured VISA® Credit Card",
+    "issuer": "American United Federal Credit Union",
     "network": "Visa",
-    "card_type": "personal",
-    "image": "",
-    "apply_link": "https://www.card.fnbo.com/mpp/fi/glacier/consumer/web-visa?agent=H51&sub=000",
-    "rates_and_fees_link": "https://www.card.fnbo.com/mpp/fi/glacier/consumer/web-visa?agent=H51&sub=000",
+    "card_type": "consumer",
+    "image": "/images/amucu_visa_secured.png",
+    "apply_link": "https://www.amucu.org/personal/visa-credit-cards/secured-visa/",
+    "rates_and_fees_link": "https://www.amucu.org/rates/",
     "annual_fee": 0,
     "foreign_fees": null,
     "min_credit_score": null,
-    "ongoing_apr": "28.74% variable",
+    "ongoing_apr": "9.90% fixed APR",
     "intro_apr": null,
     "reward_program": null,
     "rewards_currency": null,
     "point_value_baseline": null,
     "point_value_max": null,
     "recommended_goals": [
-        "build credit",
-        "secured card",
-        "no annual fee"
+        "credit-building",
+        "rebuilding credit with secured collateral",
+        "low fixed rate"
     ],
     "rewards": [],
     "sign_up_bonus": {
@@ -29,11 +29,15 @@
         "timeframe_months": null
     },
     "credits_and_benefits": [
-        "Security deposit $300–$5,000 (multiples of $50)",
-        "Balance transfer fee 5% (minimum $10)"
+        "Deposit account balance used as collateral",
+        "Not eligible to earn reward points or cash back",
+        "Quick approval in-branch or online",
+        "No annual fee",
+        "EMV contactless technology",
+        "Zero liability protection"
     ],
     "transfer_partners": [],
-    "eligibility": "Subject to credit approval; requires refundable security deposit between $300 and $5,000",
+    "eligibility": "Membership required; credit limit based on savings collateral",
     "is_business": false,
     "available_regions": [
         "Utah"
@@ -45,7 +49,7 @@
     "data_source": "manual",
     "last_updated": "2025-11-13",
     "affiliate_metadata": {
-        "partner": "FNBO",
+        "partner": null,
         "offer_id": null,
         "feed_source": null,
         "last_synced": null,
@@ -54,13 +58,15 @@
     },
     "quiz_metadata": {
         "recommended_for": [
-            "credit building",
-            "secured starter card"
+            "credit rebuilders",
+            "secured card seekers",
+            "Utah residents"
         ],
         "manual_tags": [
             "secured",
-            "FNBO",
-            "Alta Bank"
+            "no rewards",
+            "low fixed rate",
+            "Utah credit union"
         ],
         "local_only": true,
         "region_priority": "Utah"

@@ -1,0 +1,82 @@
+{
+    "id": "bankofutah_everyday_rewards_plus",
+    "name": "Bank of Utah Everyday Rewards+ Card",
+    "issuer": "Bank of Utah (issued by Elan Financial Services)",
+    "network": "Visa",
+    "card_type": "personal",
+    "image": "/images/bankofutah_everyday_rewards_plus.png",
+    "apply_link": "https://www.mycardapply.com/synindex/?ecdma-lc=28388",
+    "rates_and_fees_link": "https://www.mycardapply.com/synindex/?ecdma-lc=28388",
+    "annual_fee": 0,
+    "foreign_fees": null,
+    "min_credit_score": null,
+    "ongoing_apr": "17.99%–28.24% variable",
+    "intro_apr": "0% for first 6 billing cycles",
+    "reward_program": "Everyday Rewards+",
+    "rewards_currency": "points",
+    "point_value_baseline": null,
+    "point_value_max": null,
+    "rewards": [
+        {
+            "category": "dining, takeout, restaurant delivery",
+            "rate": 4,
+            "description": "4X points on first $2,000 in dining each quarter"
+        },
+        {
+            "category": "grocery stores, gas stations, EV charging, streaming services",
+            "rate": 2,
+            "description": "2X points on eligible grocery, gas, EV charging & streaming services"
+        },
+        {
+            "category": "all other purchases",
+            "rate": 1,
+            "description": "1X points on all other eligible purchases"
+        }
+    ],
+    "recommended_goals": [
+        "dining rewards",
+        "grocery rewards",
+        "moderate bonus seekers"
+    ],
+    "sign_up_bonus": {
+        "description": "Earn 15,000 points (worth up to $150) after spending $500 in 90 days",
+        "value_estimate": 150,
+        "spend_requirement": 500,
+        "timeframe_months": 3
+    },
+    "credits_and_benefits": [],
+    "transfer_partners": [],
+    "eligibility": "Subject to credit approval",
+    "is_business": false,
+    "available_regions": [
+        "Utah"
+    ],
+    "pairing_synergy": [],
+    "card_tier": "Visa Signature",
+    "availability_status": "active",
+    "visibility": true,
+    "data_source": "manual",
+    "last_updated": "2025-11-13",
+    "affiliate_metadata": {
+        "partner": "Elan Financial Services",
+        "offer_id": null,
+        "feed_source": null,
+        "last_synced": null,
+        "tracking_link": null,
+        "is_affiliate": false
+    },
+    "quiz_metadata": {
+        "recommended_for": [
+            "dining spenders",
+            "grocery shoppers"
+        ],
+        "manual_tags": [
+            "dining",
+            "grocery",
+            "bonus",
+            "Utah credit card"
+        ],
+        "local_only": true,
+        "region_priority": "Utah"
+    }
+}

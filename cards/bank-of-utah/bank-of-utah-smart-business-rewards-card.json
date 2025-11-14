@@ -1,0 +1,84 @@
+{
+    "id": "bankofutah_smart_business_rewards",
+    "name": "Bank of Utah Smart Business Rewards Card",
+    "issuer": "Bank of Utah (issued by Elan Financial Services)",
+    "network": "Visa",
+    "card_type": "business",
+    "image": "/images/bankofutah_smart_business_rewards.png",
+    "apply_link": "https://www.mycardapply.com/synindex/?ecdma-lc=28388",
+    "rates_and_fees_link": "https://www.mycardapply.com/synindex/?ecdma-lc=28388",
+    "annual_fee": 95,
+    "foreign_fees": null,
+    "min_credit_score": null,
+    "ongoing_apr": "18.49%–25.49% variable",
+    "intro_apr": null,
+    "reward_program": "Smart Business Rewards",
+    "rewards_currency": "points",
+    "point_value_baseline": null,
+    "point_value_max": null,
+    "recommended_goals": [
+        "business rewards",
+        "top spend categories",
+        "travel"
+    ],
+    "rewards": [
+        {
+            "category": "top two spend categories each month",
+            "rate": 2,
+            "description": "2X points per $1 in your top 2 spend categories automatically"
+        },
+        {
+            "category": "all other purchases",
+            "rate": 1,
+            "description": "1X points on all other eligible purchases"
+        },
+        {
+            "category": "prepaid hotels & car rentals via Rewards Center",
+            "rate": 5,
+            "description": "5X points on prepaid hotels & car rentals booked through Rewards Center"
+        }
+    ],
+    "sign_up_bonus": {
+        "description": "20,000 bonus points (worth up to $200) after spending $500 in first 90 days",
+        "value_estimate": 200,
+        "spend_requirement": 500,
+        "timeframe_months": 3
+    },
+    "credits_and_benefits": [
+        "No annual fee for authorized employees"
+    ],
+    "transfer_partners": [],
+    "eligibility": "Business approval required",
+    "is_business": true,
+    "available_regions": [
+        "Utah"
+    ],
+    "pairing_synergy": [],
+    "card_tier": "Visa Signature Business",
+    "availability_status": "active",
+    "visibility": true,
+    "data_source": "manual",
+    "last_updated": "2025-11-13",
+    "affiliate_metadata": {
+        "partner": "Elan Financial Services",
+        "offer_id": null,
+        "feed_source": "Elan partner page",
+        "last_synced": null,
+        "tracking_link": null,
+        "is_affiliate": false
+    },
+    "quiz_metadata": {
+        "recommended_for": [
+            "business owners",
+            "rewards maximizers"
+        ],
+        "manual_tags": [
+            "business",
+            "bonus",
+            "Utah business card",
+            "points"
+        ],
+        "local_only": true,
+        "region_priority": "Utah"
+    }
+}

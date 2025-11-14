@@ -1,27 +1,115 @@
-from PIL import Image, ImageChops, ImageStat
+from PIL import Image
 import os
+from collections import Counter, deque
 
-input_folder = "screenshots"        # where your raw screenshots are
-output_folder = "cropped_cards"     # where to save cropped versions
-tolerance = 15                      # how forgiving to be (0 = strict white only)
+script_dir = os.path.dirname(os.path.abspath(__file__))
+input_folder = os.path.join(script_dir, "screenshots")  # where your raw screenshots are
+output_folder = os.path.join(script_dir, "cropped_cards")  # where to save processed versions
 
+# Tolerance for considering a pixel part of the background (0-255 per channel)
+TOLERANCE = 15
 os.makedirs(output_folder, exist_ok=True)
 
-def trim_whitespace(img, tol=tolerance):
-    # Convert to RGB just in case it's RGBA or something else
-    img = img.convert("RGB")
-    bg = Image.new("RGB", img.size, img.getpixel((0, 0)))  # assume top-left pixel is background
-    diff = ImageChops.difference(img, bg)
-    # Enhance diff to make near-white areas count as background
-    diff = ImageChops.add(diff, diff, 2.0, -tol)
-    bbox = diff.getbbox()
-    return img.crop(bbox) if bbox else img  # crop if difference found
+# Collect already processed (without extension differences)
+existing_outputs = {os.path.splitext(f)[0].lower() for f in os.listdir(output_folder) if f.lower().endswith(".png")}
 
-for filename in os.listdir(input_folder):
-    if filename.lower().endswith(('.png', '.jpg', '.jpeg')):
-        path = os.path.join(input_folder, filename)
-        img = Image.open(path)
-        cropped = trim_whitespace(img)
-        cropped.save(os.path.join(output_folder, filename))
+def remove_background(img, tol=TOLERANCE):
+    """Make only edge-connected uniform/light background transparent.
+    Internal white/off-white areas remain untouched.
+    Steps:
+      1. Collect corner colors as background candidates.
+      2. Flood fill from all edge pixels that match background criteria.
+      3. Only pixels reached by flood fill become transparent.
+      4. Crop resulting transparent border.
+    """
+    rgb = img.convert("RGB")
+    w, h = rgb.size
 
-print("✅ Cropping complete. Check the 'cropped_cards' folder.")
+    corner_pixels = [
+        rgb.getpixel((0, 0)),
+        rgb.getpixel((w - 1, 0)),
+        rgb.getpixel((0, h - 1)),
+        rgb.getpixel((w - 1, h - 1)),
+    ]
+    bg_candidates = set(corner_pixels)
+
+    rgba = rgb.convert("RGBA")
+    pixels = rgba.load()
+
+    def is_bg(pixel):
+        for bg in bg_candidates:
+            if all(abs(pixel[i] - bg[i]) <= tol for i in range(3)):
+                return True
+        # Near-white heuristic
+        if all(channel >= 255 - tol for channel in pixel[:3]):
+            return True
+        return False
+
+    visited = [[False]*w for _ in range(h)]
+    q = deque()
+
+    def enqueue_if_bg(x, y):
+        if 0 <= x < w and 0 <= y < h and not visited[y][x]:
+            if is_bg(pixels[x, y]):
+                visited[y][x] = True
+                q.append((x, y))
+
+    # Seed queue with all edge pixels that satisfy background criteria
+    for x in range(w):
+        enqueue_if_bg(x, 0)
+        enqueue_if_bg(x, h-1)
+    for y in range(h):
+        enqueue_if_bg(0, y)
+        enqueue_if_bg(w-1, y)
+
+    # 4-directional flood fill (use 8 if needed)
+    while q:
+        x, y = q.popleft()
+        for nx, ny in ((x+1,y), (x-1,y), (x,y+1), (x,y-1)):
+            if 0 <= nx < w and 0 <= ny < h and not visited[ny][nx]:
+                if is_bg(pixels[nx, ny]):
+                    visited[ny][nx] = True
+                    q.append((nx, ny))
+
+    # Apply transparency only to visited (edge-connected background) pixels
+    for y in range(h):
+        for x in range(w):
+            if visited[y][x]:
+                r, g, b, a = pixels[x, y]
+                pixels[x, y] = (r, g, b, 0)
+
+    # Trim transparent border
+    alpha = rgba.split()[-1]
+    bbox = alpha.getbbox()
+    if bbox:
+        rgba = rgba.crop(bbox)
+    return rgba
+
+# Force reprocess (ignore cache) if environment variable CROP_FORCE=1
+force = os.environ.get("CROP_FORCE") == "1"
+
+if not os.path.isdir(input_folder):
+    print(f"❌ Input folder not found: {input_folder}")
+else:
+    files_processed = 0
+    files_skipped = 0
+    for filename in os.listdir(input_folder):
+        if filename.lower().endswith((".png", ".jpg", ".jpeg")):
+            stem = os.path.splitext(filename)[0].lower()
+            if stem in existing_outputs and not force:
+                files_skipped += 1
+                continue
+            path = os.path.join(input_folder, filename)
+            try:
+                img = Image.open(path)
+                processed = remove_background(img)
+                out_name = stem + ".png"
+                processed.save(os.path.join(output_folder, out_name))
+                files_processed += 1
+            except Exception as e:
+                print(f"⚠️ Failed processing {filename}: {e}")
+    if files_processed:
+        print(f"✅ Background removal complete. {files_processed} new file(s) saved to '{output_folder}'.")
+    print(f"ℹ️ Skipped {files_skipped} existing file(s). Use CROP_FORCE=1 to reprocess all.")
+    if files_processed == 0 and files_skipped == 0:
+        print("ℹ️ No image files processed.")

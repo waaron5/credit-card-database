@@ -1,0 +1,79 @@
+{
+    "id": "bankofutah_business_real_rewards",
+    "name": "Bank of Utah Business Real Rewards Card",
+    "issuer": "Bank of Utah (issued by Elan Financial Services)",
+    "network": "Visa",
+    "card_type": "business",
+    "image": "/images/bankofutah_business_real_rewards.png",
+    "apply_link": "https://www.mycardapply.com/synindex/?ecdma-lc=28388",
+    "rates_and_fees_link": "https://www.mycardapply.com/synindex/?ecdma-lc=28388",
+    "annual_fee": 0,
+    "foreign_fees": null,
+    "min_credit_score": null,
+    "ongoing_apr": "17.49%–26.49% variable",
+    "intro_apr": "0% for first 6 billing cycles",
+    "reward_program": "Business Real Rewards",
+    "rewards_currency": "points",
+    "point_value_baseline": null,
+    "point_value_max": null,
+    "rewards": [
+        {
+            "category": "all eligible purchases",
+            "rate": 1.5,
+            "description": "1.5X points per $1 spent on all eligible purchases"
+        },
+        {
+            "category": "prepaid hotels & car rentals through Rewards Center",
+            "rate": 5.5,
+            "description": "5.5X points on prepaid hotels & car rentals booked through Rewards Center"
+        }
+    ],
+    "recommended_goals": [
+        "simple rewards",
+        "business spend",
+        "no annual fee"
+    ],
+    "sign_up_bonus": {
+        "description": "2,500 bonus points (worth up to $25) after first purchase",
+        "value_estimate": 25,
+        "spend_requirement": 1,
+        "timeframe_months": 1
+    },
+    "credits_and_benefits": [
+        "No cap on rewards; points valid for 5 years"
+    ],
+    "transfer_partners": [],
+    "eligibility": "Business approval required",
+    "is_business": true,
+    "available_regions": [
+        "Utah"
+    ],
+    "pairing_synergy": [],
+    "card_tier": "Visa Business",
+    "availability_status": "active",
+    "visibility": true,
+    "data_source": "manual",
+    "last_updated": "2025-11-13",
+    "affiliate_metadata": {
+        "partner": "Elan Financial Services",
+        "offer_id": null,
+        "feed_source": "Elan partner page",
+        "last_synced": null,
+        "tracking_link": null,
+        "is_affiliate": false
+    },
+    "quiz_metadata": {
+        "recommended_for": [
+            "business owners",
+            "simple rewards"
+        ],
+        "manual_tags": [
+            "business",
+            "points",
+            "no annual fee",
+            "Utah business card"
+        ],
+        "local_only": true,
+        "region_priority": "Utah"
+    }
+}

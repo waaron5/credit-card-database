@@ -1,27 +1,27 @@
 {
-    "id": "alta_platinum_edition",
-    "name": "Platinum Edition® Visa® Card",
-    "issuer": "Alta Bank (issued by FNBO)",
+    "id": "canyonview_crimson",
+    "name": "Crimson VISA Credit Card",
+    "issuer": "Canyon View Credit Union",
     "network": "Visa",
     "card_type": "personal",
-    "image": "",
-    "apply_link": "https://www.card.fnbo.com/mpp/fi/glacier/consumer/web-visa?agent=H51&sub=000",
-    "rates_and_fees_link": "https://www.card.fnbo.com/mpp/fi/glacier/consumer/web-visa?agent=H51&sub=000",
+    "image": "/images/canyonview_crimson.png",
+    "apply_link": "https://www.canyonviewcreditunion.com",
+    "rates_and_fees_link": null,
     "annual_fee": 0,
     "foreign_fees": null,
     "min_credit_score": null,
-    "ongoing_apr": "18.74%–28.74% variable",
-    "intro_apr": "0% for first 6 billing cycles on purchases and balance transfers",
+    "ongoing_apr": "11.99% variable",
+    "intro_apr": null,
     "reward_program": null,
     "rewards_currency": null,
     "point_value_baseline": null,
     "point_value_max": null,
+    "rewards": [],
     "recommended_goals": [
         "low interest",
-        "balance transfer",
+        "simple card",
         "no annual fee"
     ],
-    "rewards": [],
     "sign_up_bonus": {
         "description": null,
         "value_estimate": null,
@@ -29,22 +29,23 @@
         "timeframe_months": null
     },
     "credits_and_benefits": [
-        "Balance transfer fee 5% (minimum $10)"
+        "No annual fee",
+        "Low variable APR as low as 11.99%"
     ],
     "transfer_partners": [],
-    "eligibility": null,
+    "eligibility": "Canyon View Credit Union membership",
     "is_business": false,
     "available_regions": [
         "Utah"
     ],
     "pairing_synergy": [],
-    "card_tier": "Platinum",
-    "availability_status": "active",
+    "card_tier": "Low Rate",
     "visibility": true,
+    "availability_status": "active",
     "data_source": "manual",
-    "last_updated": "2025-11-12",
+    "last_updated": "2025-11-13",
     "affiliate_metadata": {
-        "partner": "FNBO",
+        "partner": null,
         "offer_id": null,
         "feed_source": null,
         "last_synced": null,
@@ -53,12 +54,13 @@
     },
     "quiz_metadata": {
         "recommended_for": [
-            "low interest",
-            "balance transfer"
+            "low APR seekers",
+            "no annual fee"
         ],
         "manual_tags": [
-            "FNBO",
-            "Alta Bank"
+            "low apr",
+            "no annual fee",
+            "Utah credit card"
         ],
         "local_only": true,
         "region_priority": "Utah"

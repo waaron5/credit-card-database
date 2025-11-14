@@ -1,0 +1,85 @@
+{
+    "id": "afcu_visa_classic",
+    "name": "Visa® Classic Credit Card",
+    "issuer": "America First Credit Union",
+    "network": "Visa",
+    "card_type": "consumer",
+    "image": "/images/afcu_visa_classic.png",
+    "apply_link": "https://www.americafirst.com/visa/visa-credit-cards/visa-classic-card.html",
+    "rates_and_fees_link": "https://www.americafirst.com/rates/visa-rates.html",
+    "annual_fee": 0,
+    "foreign_fees": "Up to 1% of USD amount",
+    "min_credit_score": null,
+    "ongoing_apr": "14.99%–17.99% variable",
+    "intro_apr": null,
+    "reward_program": "Classic Rewards or Cash-Back or Low-Rate option",
+    "rewards_currency": "points or cash back",
+    "point_value_baseline": null,
+    "point_value_max": null,
+    "recommended_goals": [
+        "everyday purchases",
+        "no annual fee",
+        "choose reward style that fits you"
+    ],
+    "rewards": [
+        {
+            "category": "all purchases",
+            "rate": 1,
+            "description": "Earn 1 point for every dollar spent (Rewards option)"
+        },
+        {
+            "category": "all purchases",
+            "rate": 0.01,
+            "description": "1% cash back (Flat 1% Cash Back option)"
+        }
+    ],
+    "sign_up_bonus": {
+        "description": null,
+        "value_estimate": null,
+        "spend_requirement": null,
+        "timeframe_months": null
+    },
+    "credits_and_benefits": [
+        "No annual fee",
+        "Customize card design with Picture Perfect®",
+        "Travel emergency assistance",
+        "Auto rental insurance",
+        "Travel accident insurance"
+    ],
+    "transfer_partners": [],
+    "eligibility": "Membership with America First Credit Union required; up to $5,000 spending limit for Classic card product.",
+    "is_business": false,
+    "available_regions": [
+        "Utah"
+    ],
+    "pairing_synergy": [],
+    "card_tier": "Classic",
+    "availability_status": "active",
+    "visibility": true,
+    "data_source": "manual",
+    "last_updated": "2025-11-13",
+    "affiliate_metadata": {
+        "partner": null,
+        "offer_id": null,
+        "feed_source": null,
+        "last_synced": null,
+        "tracking_link": null,
+        "is_affiliate": false
+    },
+    "quiz_metadata": {
+        "recommended_for": [
+            "budget-conscious consumers",
+            "members seeking flexibility",
+            "Utah residents"
+        ],
+        "manual_tags": [
+            "no annual fee",
+            "cash back option",
+            "low rate option",
+            "Utah credit union",
+            "Classic tier"
+        ],
+        "local_only": true,
+        "region_priority": "Utah"
+    }
+}

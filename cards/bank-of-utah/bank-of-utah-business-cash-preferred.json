@@ -1,0 +1,82 @@
+{
+    "id": "bankofutah_business_cash_preferred",
+    "name": "Bank of Utah Business Cash Preferred Card",
+    "issuer": "Bank of Utah (issued by Elan Financial Services)",
+    "network": "Visa",
+    "card_type": "business",
+    "image": "/images/bankofutah_business_cash_preferred.png",
+    "apply_link": "https://www.mycardapply.com/synindex/?ecdma-lc=28388",
+    "rates_and_fees_link": "https://www.mycardapply.com/synindex/?ecdma-lc=28388",
+    "annual_fee": 0,
+    "foreign_fees": null,
+    "min_credit_score": null,
+    "ongoing_apr": "17.49%–26.49% variable",
+    "intro_apr": "0% for first 6 billing cycles",
+    "reward_program": "Business Cash Preferred",
+    "rewards_currency": "cash back",
+    "point_value_baseline": null,
+    "point_value_max": null,
+    "rewards": [
+        {
+            "category": "gas, EV charging, cell phone providers, office supply stores, dining (≤$200 transactions)",
+            "rate": 0.03,
+            "description": "3% cash back on eligible purchases"
+        },
+        {
+            "category": "prepaid hotels and car rentals",
+            "rate": 0.05,
+            "description": "5% cash back on prepaid hotels & car rentals booked in Rewards Center"
+        },
+        {
+            "category": "all other purchases",
+            "rate": 0.01,
+            "description": "1% cash back on all other eligible purchases"
+        }
+    ],
+    "recommended_goals": [
+        "business cash back",
+        "no annual fee",
+        "bonus seekers"
+    ],
+    "sign_up_bonus": {
+        "description": "$25 cash back after first purchase",
+        "value_estimate": 25,
+        "spend_requirement": 1,
+        "timeframe_months": 1
+    },
+    "credits_and_benefits": [],
+    "transfer_partners": [],
+    "eligibility": "Business approval required",
+    "is_business": true,
+    "available_regions": [
+        "Utah"
+    ],
+    "pairing_synergy": [],
+    "card_tier": "Visa Business",
+    "availability_status": "active",
+    "visibility": true,
+    "data_source": "manual",
+    "last_updated": "2025-11-13",
+    "affiliate_metadata": {
+        "partner": "Elan Financial Services",
+        "offer_id": null,
+        "feed_source": null,
+        "last_synced": null,
+        "tracking_link": null,
+        "is_affiliate": false
+    },
+    "quiz_metadata": {
+        "recommended_for": [
+            "business owners",
+            "cash back maximizers"
+        ],
+        "manual_tags": [
+            "business",
+            "cash back",
+            "bonus",
+            "Utah credit card"
+        ],
+        "local_only": true,
+        "region_priority": "Utah"
+    }
+}

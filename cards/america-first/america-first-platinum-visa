@@ -1,0 +1,104 @@
+{
+    "id": "afcu_visa_platinum",
+    "name": "Visa® Platinum Credit Card",
+    "issuer": "America First Credit Union",
+    "network": "Visa",
+    "card_type": "consumer",
+    "image": "/images/afcu_visa_platinum.png",
+    "apply_link": "https://www.americafirst.com/visa/visa-credit-cards/visa-platinum-card.html",
+    "rates_and_fees_link": "https://www.americafirst.com/rates/visa-rates.html",
+    "annual_fee": 0,
+    "foreign_transaction_fee": "Up to 1% of USD amount",
+    "min_credit_score": null,
+    "ongoing_apr": {
+        "introductory": {
+            "rate": "0%",
+            "duration_months": 6,
+            "type": "interest-free initial period"
+        },
+        "after_intro": {
+            "lowest_available": "11.49% variable",
+            "highest": "18% variable"
+        }
+    },
+    "intro_apr": "0% for first 6 months",
+    "reward_program": "Choose one perk option (points, low rate, cash back) for the Visa Platinum family",
+    "rewards_currency": "varies by perk option",
+    "point_value_baseline": null,
+    "point_value_max": null,
+    "recommended_goals": [
+        "low interest financing",
+        "balance transfers",
+        "flexible rewards"
+    ],
+    "rewards": [
+        {
+            "category": "all purchases",
+            "rate": null,
+            "description": "Earn 1 point per $1 spent (Rewards option)"
+        },
+        {
+            "category": "all purchases",
+            "rate": 0.01,
+            "description": "Flat 1% cash back (Cash Back option)"
+        },
+        {
+            "category": "all purchases",
+            "rate": null,
+            "description": "No rewards but extremely low rate (Low Rate option)"
+        }
+    ],
+    "sign_up_bonus": {
+        "description": null,
+        "value_estimate": null,
+        "spend_requirement": null,
+        "timeframe_months": null
+    },
+    "credits_and_benefits": [
+        "No annual fee",
+        "No balance transfer fee",
+        "Customizable card image (Picture Perfect™)",
+        "Choice of perk option",
+        "Travel emergency assistance, lost luggage help",
+        "Auto rental insurance, extended warranties",
+        "Identity theft recovery services",
+        "Chip-enabled (EMV) fraud protection",
+        "Card Guard® mobile security"
+    ],
+    "transfer_partners": [],
+    "eligibility": "Membership with America First Credit Union required; product has $6,000 minimum credit limit†",
+    "is_business": false,
+    "available_regions": [
+        "Utah"
+    ],
+    "pairing_synergy": [],
+    "card_tier": "Platinum",
+    "availability_status": "active",
+    "visibility": true,
+    "data_source": "manual",
+    "last_updated": "2025-11-13",
+    "affiliate_metadata": {
+        "partner": null,
+        "offer_id": null,
+        "feed_source": null,
+        "last_synced": null,
+        "tracking_link": null,
+        "is_affiliate": false
+    },
+    "quiz_metadata": {
+        "recommended_for": [
+            "borrowers needing low interest",
+            "members seeking flexible rewards",
+            "Utah residents"
+        ],
+        "manual_tags": [
+            "low rate",
+            "no annual fee",
+            "cash back option",
+            "Utah credit union",
+            "Platinum tier"
+        ],
+        "local_only": true,
+        "region_priority": "Utah"
+    }
+}

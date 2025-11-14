@@ -1,0 +1,86 @@
+{
+    "id": "bankofutah_max_cash_secured",
+    "name": "Bank of Utah Max Cash Secured",
+    "issuer": "Bank of Utah (issued by Elan Financial Services)",
+    "network": "Visa",
+    "card_type": "personal",
+    "image": "/images/bankofutah_max_cash_secured.png",
+    "apply_link": "https://www.mycardapply.com/synindex/?ecdma-lc=28388",
+    "rates_and_fees_link": "https://www.mycardapply.com/synindex/?ecdma-lc=28388",
+    "annual_fee": 0,
+    "foreign_fees": null,
+    "min_credit_score": null,
+    "ongoing_apr": "28.74% variable",
+    "intro_apr": null,
+    "reward_program": "Max Cash Rewards Secured",
+    "rewards_currency": "cash back",
+    "point_value_baseline": null,
+    "point_value_max": null,
+    "recommended_goals": [
+        "cash back",
+        "credit building"
+    ],
+    "rewards": [
+        {
+            "category": "two categories of choice",
+            "rate": 0.05,
+            "description": "5% cash back on two chosen categories (up to $2,000 combined per quarter)"
+        },
+        {
+            "category": "one everyday category",
+            "rate": 0.02,
+            "description": "2% unlimited cash back on one chosen category like gas stations or grocery stores"
+        },
+        {
+            "category": "all other purchases",
+            "rate": 0.01,
+            "description": "1% unlimited cash back on all other purchases"
+        }
+    ],
+    "sign_up_bonus": {
+        "description": null,
+        "value_estimate": null,
+        "spend_requirement": null,
+        "timeframe_months": null
+    },
+    "credits_and_benefits": [
+        "Zero Fraud Liability protection",
+        "No annual fee",
+        "Flexible category selection",
+        "Secured credit building option"
+    ],
+    "transfer_partners": [],
+    "eligibility": "Secured card requiring refundable deposit; subject to approval",
+    "is_business": false,
+    "available_regions": [
+        "Utah"
+    ],
+    "pairing_synergy": [],
+    "card_tier": "Secured",
+    "availability_status": "active",
+    "visibility": true,
+    "data_source": "manual",
+    "last_updated": "2025-11-13",
+    "affiliate_metadata": {
+        "partner": "Elan Financial Services",
+        "offer_id": null,
+        "feed_source": "Elan partner page",
+        "last_synced": null,
+        "tracking_link": null,
+        "is_affiliate": false
+    },
+    "quiz_metadata": {
+        "recommended_for": [
+            "credit rebuilders",
+            "cash back earners"
+        ],
+        "manual_tags": [
+            "secured",
+            "cash back",
+            "no annual fee",
+            "Utah credit card"
+        ],
+        "local_only": true,
+        "region_priority": "Utah"
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "id": "amucu_business_cash_back",
+    "name": "VISA® Business Cash Back",
+    "issuer": "American United Federal Credit Union",
+    "network": "Visa",
+    "card_type": "business",
+    "image": "/images/amucu_business_cash_back.png",
+    "apply_link": "https://www.amucu.org/business/business-cash-back-visa/",
+    "rates_and_fees_link": "https://www.amucu.org/rates/",
+    "annual_fee": 0,
+    "foreign_fees": null,
+    "min_credit_score": null,
+    "ongoing_apr": "9.90% fixed APR",
+    "intro_apr": null,
+    "reward_program": "Business Cash Back",
+    "rewards_currency": "cash back",
+    "point_value_baseline": null,
+    "point_value_max": null,
+    "recommended_goals": [
+        "small business everyday purchases",
+        "simple cash back rewards",
+        "Utah business credit card"
+    ],
+    "rewards": [
+        {
+            "category": "all purchases",
+            "rate": 0.01,
+            "description": "1% cash back on every purchase with automatic monthly payout."
+        }
+    ],
+    "sign_up_bonus": {
+        "description": null,
+        "value_estimate": null,
+        "spend_requirement": null,
+        "timeframe_months": null
+    },
+    "credits_and_benefits": [
+        "No annual fee",
+        "Fixed rate as low as 9.90% APR",
+        "Instant-issue business cards",
+        "EMV contactless payments",
+        "Zero liability protection"
+    ],
+    "transfer_partners": [],
+    "eligibility": "Business membership required, approved credit",
+    "is_business": true,
+    "available_regions": [
+        "Utah"
+    ],
+    "pairing_synergy": [],
+    "card_tier": "Business-CashBack",
+    "availability_status": "active",
+    "visibility": true,
+    "data_source": "manual",
+    "last_updated": "2025-11-13",
+    "affiliate_metadata": {
+        "partner": null,
+        "offer_id": null,
+        "feed_source": null,
+        "last_synced": null,
+        "tracking_link": null,
+        "is_affiliate": false
+    },
+    "quiz_metadata": {
+        "recommended_for": [
+            "small business owners",
+            "Utah business credit",
+            "simple cash back"
+        ],
+        "manual_tags": [
+            "business",
+            "cash back",
+            "Utah credit union"
+        ],
+        "local_only": true,
+        "region_priority": "Utah"
+    }
+}

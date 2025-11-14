@@ -1,27 +1,26 @@
 {
-    "id": "alta_secured_visa",
-    "name": "Secured Visa® Card",
-    "issuer": "Alta Bank (issued by FNBO)",
+    "id": "bankofutah_secured_visa",
+    "name": "Bank of Utah Secured Visa",
+    "issuer": "Bank of Utah (issued by Elan Financial Services)",
     "network": "Visa",
     "card_type": "personal",
-    "image": "",
-    "apply_link": "https://www.card.fnbo.com/mpp/fi/glacier/consumer/web-visa?agent=H51&sub=000",
-    "rates_and_fees_link": "https://www.card.fnbo.com/mpp/fi/glacier/consumer/web-visa?agent=H51&sub=000",
+    "image": "/images/bankofutah_secured_visa.png",
+    "apply_link": "https://www.mycardapply.com/synindex/?ecdma-lc=28388",
+    "rates_and_fees_link": "https://www.mycardapply.com/synindex/?ecdma-lc=28388",
     "annual_fee": 0,
     "foreign_fees": null,
     "min_credit_score": null,
-    "ongoing_apr": "28.74% variable",
+    "ongoing_apr": "27.74% variable",
     "intro_apr": null,
     "reward_program": null,
     "rewards_currency": null,
     "point_value_baseline": null,
     "point_value_max": null,
+    "rewards": [],
     "recommended_goals": [
         "build credit",
-        "secured card",
-        "no annual fee"
+        "secure credit option"
     ],
-    "rewards": [],
     "sign_up_bonus": {
         "description": null,
         "value_estimate": null,
@@ -29,11 +28,13 @@
         "timeframe_months": null
     },
     "credits_and_benefits": [
-        "Security deposit $300–$5,000 (multiples of $50)",
-        "Balance transfer fee 5% (minimum $10)"
+        "Zero Fraud Liability protection",
+        "Free credit score access",
+        "Automatic bill pay option",
+        "Account alerts for monitoring"
     ],
     "transfer_partners": [],
-    "eligibility": "Subject to credit approval; requires refundable security deposit between $300 and $5,000",
+    "eligibility": "Secured card requiring refundable deposit; subject to approval",
     "is_business": false,
     "available_regions": [
         "Utah"
@@ -45,22 +46,22 @@
     "data_source": "manual",
     "last_updated": "2025-11-13",
     "affiliate_metadata": {
-        "partner": "FNBO",
+        "partner": "Elan Financial Services",
         "offer_id": null,
-        "feed_source": null,
+        "feed_source": "Elan partner page",
         "last_synced": null,
         "tracking_link": null,
         "is_affiliate": false
     },
     "quiz_metadata": {
         "recommended_for": [
-            "credit building",
-            "secured starter card"
+            "credit rebuilders",
+            "new credit users"
         ],
         "manual_tags": [
             "secured",
-            "FNBO",
-            "Alta Bank"
+            "no annual fee",
+            "Utah credit card"
         ],
         "local_only": true,
         "region_priority": "Utah"

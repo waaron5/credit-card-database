@@ -4,7 +4,7 @@
     "issuer": "",
     "network": null,
     "card_type": null,
-    "image": null,
+    "image": "",
     "apply_link": "",
     "rates_and_fees_link": null,
     "annual_fee": 0,
@@ -16,10 +16,16 @@
     "rewards_currency": null,
     "point_value_baseline": null,
     "point_value_max": null,
+    "rewards": [
+        {
+            "category": "",
+            "rate": 0,
+            "description": ""
+        }
+    ],
     "recommended_goals": [],
-    "rewards": [],
     "sign_up_bonus": {
-        "description": "",
+        "description": null,
         "value_estimate": null,
         "spend_requirement": null,
         "timeframe_months": null
@@ -28,7 +34,9 @@
     "transfer_partners": [],
     "eligibility": null,
     "is_business": false,
-    "available_regions": [],
+    "available_regions": [
+        "Utah"
+    ],
     "pairing_synergy": [],
     "card_tier": null,
     "availability_status": "active",
@@ -46,7 +54,7 @@
     "quiz_metadata": {
         "recommended_for": [],
         "manual_tags": [],
-        "local_only": false,
+        "local_only": true,
         "region_priority": "Utah"
     }
 }

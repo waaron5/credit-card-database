@@ -1,0 +1,84 @@
+{
+    "id": "afcu_visa_signature",
+    "name": "Visa Signature",
+    "issuer": "America First Credit Union",
+    "network": "Visa",
+    "card_type": "consumer",
+    "image": "/images/afcu_visa_signature.png",
+    "apply_link": "https://www.americafirst.com/visa/visa-credit-cards/visa-signature.html",
+    "rates_and_fees_link": "https://www.americafirst.com/rates/visa-rates.html",
+    "annual_fee": 0,
+    "foreign_fees": "Up to 1% of USD amount",
+    "min_credit_score": null,
+    "ongoing_apr": "14.24%–18.0% variable",
+    "intro_apr": null,
+    "reward_program": "Unlimited Cash Back",
+    "rewards_currency": "cash back",
+    "point_value_baseline": null,
+    "point_value_max": null,
+    "recommended_goals": [
+        "everyday spending",
+        "cash back",
+        "travel & purchase protection"
+    ],
+    "rewards": [
+        {
+            "category": "all purchases",
+            "rate": 0.015,
+            "description": "1.5% cash back on every purchase (Visa Signature version) — unlimited"
+        },
+        {
+            "category": "all purchases",
+            "rate": 0.01,
+            "description": "1% cash back on every purchase (alternative Visa Signature version)"
+        }
+    ],
+    "sign_up_bonus": {
+        "description": "for a limited time, when you open a new America First Visa® credit card and spend $3,000 within 90 days, we’ll give you $300.",
+        "value_estimate": 300,
+        "spend_requirement": 3000,
+        "timeframe_months": 3
+    },
+    "credits_and_benefits": [
+        "Visa® Zero Liability",
+        "Exclusive discounts on dining, events & shopping",
+        "Travel & rental-car protections: 24-hour roadside dispatch, collision & theft coverage on rentals, travel accident insurance",
+        "Warranty registration & extended coverage",
+        "Card Guard® mobile security and identity theft recovery"
+    ],
+    "transfer_partners": [],
+    "eligibility": "Membership with America First Credit Union required; standard credit card underwriting applies",
+    "is_business": false,
+    "available_regions": [
+        "Utah"
+    ],
+    "pairing_synergy": [],
+    "card_tier": "Signature",
+    "availability_status": "active",
+    "visibility": true,
+    "data_source": "manual",
+    "last_updated": "2025-11-13",
+    "affiliate_metadata": {
+        "partner": null,
+        "offer_id": null,
+        "feed_source": null,
+        "last_synced": null,
+        "tracking_link": null,
+        "is_affiliate": false
+    },
+    "quiz_metadata": {
+        "recommended_for": [
+            "everyday spenders",
+            "no annual fee seekers",
+            "travel buyers who value protections"
+        ],
+        "manual_tags": [
+            "cash back",
+            "no annual fee",
+            "Utah credit union",
+            "signature tier"
+        ],
+        "local_only": true,
+        "region_priority": "Utah"
+    }
+}

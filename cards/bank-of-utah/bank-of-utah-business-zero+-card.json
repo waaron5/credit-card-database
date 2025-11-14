@@ -1,0 +1,77 @@
+{
+    "id": "bankofutah_business_zero_plus",
+    "name": "Bank of Utah Business Zero+ Card",
+    "issuer": "Bank of Utah (issued by Elan Financial Services)",
+    "network": "Visa",
+    "card_type": "business",
+    "image": "/images/bankofutah_business_zero_plus.png",
+    "apply_link": "https://www.mycardapply.com/synindex/?ecdma-lc=28388",
+    "rates_and_fees_link": "https://www.mycardapply.com/synindex/?ecdma-lc=28388",
+    "annual_fee": 0,
+    "foreign_fees": null,
+    "min_credit_score": null,
+    "ongoing_apr": "16.49%–25.49% variable",
+    "intro_apr": "0% for first 18 billing cycles",
+    "reward_program": "Business Zero+",
+    "rewards_currency": "cash back",
+    "point_value_baseline": null,
+    "point_value_max": null,
+    "recommended_goals": [
+        "business 0% APR",
+        "travel cash back",
+        "cell phone protection"
+    ],
+    "rewards": [
+        {
+            "category": "prepaid travel booked in Rewards Center",
+            "rate": 0.05,
+            "description": "5% cash back on prepaid travel booked directly in Rewards Center"
+        }
+    ],
+    "sign_up_bonus": {
+        "description": "$50 annual statement credit when spending $5,000 in Rewards Center each year",
+        "value_estimate": 50,
+        "spend_requirement": 5000,
+        "timeframe_months": 12
+    },
+    "credits_and_benefits": [
+        "Cell phone protection (up to $600 reimbursement)",
+        "$0 fee ExtendPay Plan annually",
+        "Redeem cash back as statement credit, rewards card, or deposit"
+    ],
+    "transfer_partners": [],
+    "eligibility": "Business approval required",
+    "is_business": true,
+    "available_regions": [
+        "Utah"
+    ],
+    "pairing_synergy": [],
+    "card_tier": "Visa Business",
+    "visibility": true,
+    "availability_status": "active",
+    "data_source": "manual",
+    "last_updated": "2025-11-13",
+    "affiliate_metadata": {
+        "partner": "Elan Financial Services",
+        "offer_id": null,
+        "feed_source": null,
+        "last_synced": null,
+        "tracking_link": null,
+        "is_affiliate": false
+    },
+    "quiz_metadata": {
+        "recommended_for": [
+            "business owners",
+            "0% APR seekers"
+        ],
+        "manual_tags": [
+            "business",
+            "0% APR",
+            "cash back",
+            "cell phone insurance",
+            "Utah business card"
+        ],
+        "local_only": true,
+        "region_priority": "Utah"
+    }
+}

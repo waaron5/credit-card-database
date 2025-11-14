@@ -1,0 +1,91 @@
+{
+    "id": "afcu_business_visa_platinum",
+    "name": "America First Business Visa Platinum",
+    "issuer": "America First Credit Union",
+    "network": "Visa",
+    "card_type": "business",
+    "image": "/images/afcu_business_visa_platinum.png",
+    "apply_link": "https://www.americafirst.com/business/loans-and-credit/credit-cards/index.html",
+    "rates_and_fees_link": null,
+    "annual_fee": 0,
+    "foreign_fees": null,
+    "min_credit_score": null,
+    "ongoing_apr": null,
+    "intro_apr": null,
+    "reward_program": "America First Business Rewards",
+    "rewards_currency": "points or cash back",
+    "point_value_baseline": null,
+    "point_value_max": null,
+    "rewards": [
+        {
+            "category": "fuel",
+            "rate": 0.02,
+            "description": "2% cash back on fuel purchases (Business Cash Back +)"
+        },
+        {
+            "category": "general purchases",
+            "rate": 0.015,
+            "description": "1.5% cash back on all other purchases (Business Cash Back +)"
+        },
+        {
+            "category": "general purchases",
+            "rate": 0.01,
+            "description": "Up to 1% cash back on purchases (Business Cash Back)"
+        },
+        {
+            "category": "general purchases",
+            "rate": 1,
+            "description": "1 point per $1 spent; redeem for cash, travel, or merchandise (Business Rewards)"
+        }
+    ],
+    "recommended_goals": [
+        "cash back",
+        "business expenses"
+    ],
+    "sign_up_bonus": {
+        "description": null,
+        "value_estimate": null,
+        "spend_requirement": null,
+        "timeframe_months": null
+    },
+    "credits_and_benefits": [
+        "Personalized card design with company logo",
+        "Free Visa Business Reporting for spending analysis",
+        "EMV chip and Card Guard® fraud protection",
+        "Travel assistance and insurance"
+    ],
+    "transfer_partners": [],
+    "eligibility": "Requires a business account with America First Credit Union",
+    "is_business": true,
+    "available_regions": [
+        "Utah"
+    ],
+    "pairing_synergy": [],
+    "card_tier": "platinum",
+    "availability_status": "active",
+    "visibility": true,
+    "data_source": "manual",
+    "last_updated": "2025-11-13",
+    "affiliate_metadata": {
+        "partner": null,
+        "offer_id": null,
+        "feed_source": null,
+        "last_synced": null,
+        "tracking_link": null,
+        "is_affiliate": false
+    },
+    "quiz_metadata": {
+        "recommended_for": [
+            "business owners",
+            "fuel-heavy businesses",
+            "local business accounts"
+        ],
+        "manual_tags": [
+            "cash back",
+            "business",
+            "Utah"
+        ],
+        "local_only": true,
+        "region_priority": "Utah"
+    }
+}
